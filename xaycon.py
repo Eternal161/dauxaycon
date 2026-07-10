@@ -57,7 +57,7 @@ def get_final_logo(team_name: str, site_logo: str) -> str:
     return f"https://ui-avatars.com/api/?name={initials}&size=200&background=1565C0&color=ffffff&bold=true"
 
 # =========================================================
-# JS: EXTRACT DATA (ĐÃ SỬA LỖI DẤU GẠCH CHÉO /)
+# JS: EXTRACT DATA (ĐÃ SỬA LỖI CÚ PHÁP SELECTOR)
 # =========================================================
 JS_EXTRACT = """
 () => {
@@ -65,7 +65,6 @@ JS_EXTRACT = """
     const seen = new Set();
     const clean = t => (t || '').replace(/\\s+/g, ' ').trim();
 
-    // 💡 ĐÃ FIX: Chỉ cần có chữ "truc-tiep" là bắt hết (xem-truc-tiep hay truc-tiep đều dính)
     const anchors = Array.from(document.querySelectorAll('a[href*="truc-tiep"]'));
 
     for (const a of anchors) {
@@ -94,7 +93,8 @@ JS_EXTRACT = """
         }
 
         let timeStr = '';
-        const timeSpans = a.querySelectorAll('span.bg-yellow-300, span.text-\\[18px\\]');
+        // 💡 FIX LỖI: Dùng attribute selector [class*="18px"] thay vì class selector có chứa dấu ngoặc vuông
+        const timeSpans = a.querySelectorAll('span.bg-yellow-300, span[class*="18px"]');
         if (timeSpans.length >= 2) {
             timeStr = clean(timeSpans[0].innerText) + ' ' + clean(timeSpans[1].innerText);
         }
@@ -190,7 +190,7 @@ def build_channel(m, stream_data):
     }
 
 # =========================================================
-# CHƯƠNG TRÌNH CHÍNH (THUẬT TOÁN GỘP TRẬN)
+# CHƯƠNG TRÌNH CHÍNH
 # =========================================================
 def scrape_and_push():
     now_vn = datetime.datetime.now(VN_TZ)
@@ -207,13 +207,12 @@ def scrape_and_push():
             print(f"📺 Đang mở trang Xây Con: {TARGET_SITE}")
             page.goto(TARGET_SITE, wait_until="domcontentloaded", timeout=60000)
             
-            # 💡 ÉP BOT KIÊN NHẪN ĐỢI HTML RENDER XONG (Tối đa 15s)
             try:
                 page.wait_for_selector('a[href*="truc-tiep"]', timeout=15000)
             except Exception:
-                print("⚠️ Cảnh báo: Không tìm thấy thẻ trận đấu. Web có thể đang load chậm hoặc bị chặn.")
+                print("⚠️ Cảnh báo: Không tìm thấy thẻ trận đấu. Web có thể đang load chậm.")
                 
-            page.wait_for_timeout(3000) # Đợi thêm 3s cho JS/React đẩy logo ra
+            page.wait_for_timeout(3000)
         except Exception as e:
             print(f"⚠️ Lỗi khi load web: {e}")
             
