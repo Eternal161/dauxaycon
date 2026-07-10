@@ -1,118 +1,12 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "19:21 10/07/2026",
+  "last_updated": "19:31 10/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Live bóng đá Xây Con",
       "channels": [
-        {
-          "id": "xaycon-f0225bd72839",
-          "name": "⚽ Cheonan City vs Gimhae City | K League 2 | 17:30 10/07",
-          "tournament": "K League 2",
-          "logo_nha": "https://media.api-sports.io/football/teams/7060.png",
-          "logo_khach": "https://media.api-sports.io/football/teams/7076.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/7060.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-f0225bd72839",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-f0225bd72839",
-                  "name": "Cheonan City vs Gimhae City",
-                  "streams": [
-                    {
-                      "id": "xaycon-f0225bd72839",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d28df70769",
-                          "name": "BLV Ciu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tfxg1gr4uqmtt8y41hcjsgyzdkcjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8?wsSession=f75f6470af28a14acee233bd-178368607093054&wsIPSercert=856aa2207128049731ae05996e609c25&wsBindIP=2&wsserid=1168283323406534424"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "xaycon-e88cde155edd",
-          "name": "⚽ Suwon City Fc vs Jeonnam Dragons | K League 2 | 17:30 10/07",
-          "tournament": "K League 2",
-          "logo_nha": "https://media.api-sports.io/football/teams/2756.png",
-          "logo_khach": "https://upload.wikimedia.org/wikipedia/en/0/08/Jeonnam_Dragons.svg",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/2756.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-e88cde155edd",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-e88cde155edd",
-                  "name": "Suwon City Fc vs Jeonnam Dragons",
-                  "streams": [
-                    {
-                      "id": "xaycon-e88cde155edd",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6c16e5a603",
-                          "name": "BLV Rồng Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tfxg1gr4uqmtt8y41hcjsgyzdkcjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=0bb9974e18223129e2110e8c-178368607733366&wsIPSercert=856aa2207128049731ae05996e609c25&wsBindIP=2&wsserid=1168283529569158070"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "xaycon-04b5c976ea2f",
           "name": "⚽ Shandong Luneng vs Yunnan Yukun | Super League | 18:35 10/07",
@@ -152,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f915db615b",
+                          "id": "lnk-28fe1d5fbd",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxg1gr4uqmtt8y41hcjsgyzdkcjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=527c539ebed211438b0a1787-178368608412982&wsIPSercert=856aa2207128049731ae05996e609c25&wsBindIP=2&wsserid=1168283323302724409"
+                          "url": "https://tfxg3gr4dymttgwanhc3sfa4urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=3deccf1ae3c21780f71b9075-178368669697130&wsIPSercert=f895416a6415c9f525b22b30f02e7f11&wsBindIP=2&wsserid=1168158473487963106"
                         }
                       ]
                     }
@@ -185,10 +79,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -203,7 +97,15 @@
                     {
                       "id": "xaycon-813e4ddf90ff",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-18457a5f93",
+                          "name": "BLV Kent",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -472,6 +374,96 @@
                   "streams": [
                     {
                       "id": "xaycon-04d0e4dfdbad",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-e13fbfd782b7",
+          "name": "⚽ Turku Ps vs Ac Oulu | Veikkausliiga | 21:00 11/07",
+          "tournament": "Veikkausliiga",
+          "logo_nha": "https://media.api-sports.io/football/teams/1168.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/2077.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/1168.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-e13fbfd782b7",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-e13fbfd782b7",
+                  "name": "Turku Ps vs Ac Oulu",
+                  "streams": [
+                    {
+                      "id": "xaycon-e13fbfd782b7",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-a42ad62e60fb",
+          "name": "⚽ Dinamo Brest vs Slavia Mozyr | Premier League | 22:45 11/07",
+          "tournament": "Premier League",
+          "logo_nha": "https://media.api-sports.io/football/teams/386.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/751.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/386.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-a42ad62e60fb",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-a42ad62e60fb",
+                  "name": "Dinamo Brest vs Slavia Mozyr",
+                  "streams": [
+                    {
+                      "id": "xaycon-a42ad62e60fb",
                       "name": "F",
                       "stream_links": []
                     }
