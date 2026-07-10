@@ -57,7 +57,7 @@ def get_final_logo(team_name: str, site_logo: str) -> str:
     return f"https://ui-avatars.com/api/?name={initials}&size=200&background=1565C0&color=ffffff&bold=true"
 
 # =========================================================
-# JS: EXTRACT DATA (ĐÃ SỬA LỖI CÚ PHÁP SELECTOR)
+# JS: EXTRACT DATA (ĐÃ LỌC SẠCH CHỮ "ĐẶT CƯỢC")
 # =========================================================
 JS_EXTRACT = """
 () => {
@@ -93,7 +93,6 @@ JS_EXTRACT = """
         }
 
         let timeStr = '';
-        // 💡 FIX LỖI: Dùng attribute selector [class*="18px"] thay vì class selector có chứa dấu ngoặc vuông
         const timeSpans = a.querySelectorAll('span.bg-yellow-300, span[class*="18px"]');
         if (timeSpans.length >= 2) {
             timeStr = clean(timeSpans[0].innerText) + ' ' + clean(timeSpans[1].innerText);
@@ -101,11 +100,14 @@ JS_EXTRACT = """
 
         const isLive = clean(a.innerText).toLowerCase().includes('trực tiếp') || clean(a.innerText).toLowerCase().includes('hiệp');
 
+        // 💡 FIX LỖI: Dọn dẹp sạch sẽ tên BLV
         let blvName = "BLV Mặc định";
         const allSpans = Array.from(a.querySelectorAll('div, span, p'));
-        const blvEl = allSpans.find(el => clean(el.innerText).toUpperCase().startsWith('BLV '));
+        // Dùng reverse() để tìm thẻ con sâu nhất, tránh dính text của thẻ cha
+        const blvEl = allSpans.reverse().find(el => clean(el.innerText).toUpperCase().startsWith('BLV '));
         if (blvEl) {
-            blvName = clean(blvEl.innerText);
+            // Chém bay chữ Đặt cược nếu lỡ dính vào
+            blvName = clean(blvEl.innerText).replace(/Đặt cược/gi, '').trim();
         }
 
         if (home && away) {
@@ -226,7 +228,8 @@ def scrape_and_push():
             if not h_lower or not a_lower or "unknown" in h_lower: continue
             
             key = f"{h_lower} vs {a_lower}"
-            blv_name = m.get('blvName', 'BLV Mặc định')
+            # Dọn dẹp thêm bằng Python cho chắc chắn
+            blv_name = re.sub(r'(?i)đặt cược', '', m.get('blvName', 'BLV Mặc định')).strip()
             
             if key not in grouped_matches:
                 m['hrefs_and_blvs'] = [(m['href'], blv_name)]
