@@ -1,65 +1,12 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "20:31 10/07/2026",
+  "last_updated": "20:41 10/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Live bóng đá Xây Con",
       "channels": [
-        {
-          "id": "xaycon-04b5c976ea2f",
-          "name": "⚽ Shandong Luneng vs Yunnan Yukun | Super League | 18:35 10/07",
-          "tournament": "Super League",
-          "logo_nha": "https://media.api-sports.io/football/teams/844.png",
-          "logo_khach": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Yunnan_Yukun_F.C.svg/960px-Yunnan_Yukun_F.C.svg.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/844.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-04b5c976ea2f",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-04b5c976ea2f",
-                  "name": "Shandong Luneng vs Yunnan Yukun",
-                  "streams": [
-                    {
-                      "id": "xaycon-04b5c976ea2f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4df5f5c632",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tfxg0gr4uqmtt8y41hcjz8rzdrcjafihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=0e4b1b37549e237ae7f7db1e-178369027663019&wsIPSercert=c5efc4fe556cb3443df089b565272075&wsBindIP=2&wsserid=1168176346318957775"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "xaycon-813e4ddf90ff",
           "name": "⚽ Shakhter Karagandy vs Turan Turkistan | 1. Division | 20:00 10/07",
@@ -99,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3ead1aea98",
+                          "id": "lnk-1a6d267625",
                           "name": "BLV Kent",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxg0gr4uqmtt8y41hcjz8rzdrcjafihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8?wsSession=30b1aee6d195528f042a6f87-178369028296568&wsIPSercert=c5efc4fe556cb3443df089b565272075&wsBindIP=2&wsserid=1168176337061519089"
+                          "url": "https://tfxg0gr4uqmtt8y41hcjsgyzdnpbafihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8?wsSession=05e575f0d15759f55d2bc537-178369087209174&wsIPSercert=7c0063e46856a68eafc7099bb8831e4c&wsBindIP=2&wsserid=1168231589589644523"
                         }
                       ]
                     }
@@ -464,6 +411,51 @@
                   "streams": [
                     {
                       "id": "xaycon-a42ad62e60fb",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-333ee6fc0d04",
+          "name": "⚽ Spain U19 vs Germany U19 | UEFA U19 Championship | 01:00 12/07",
+          "tournament": "UEFA U19 Championship",
+          "logo_nha": "https://media.api-sports.io/football/teams/10349.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/10336.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/10349.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-333ee6fc0d04",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-333ee6fc0d04",
+                  "name": "Spain U19 vs Germany U19",
+                  "streams": [
+                    {
+                      "id": "xaycon-333ee6fc0d04",
                       "name": "F",
                       "stream_links": []
                     }
