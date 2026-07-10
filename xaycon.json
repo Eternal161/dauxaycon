@@ -1,0 +1,12 @@
+{
+  "id": "xaycon",
+  "name": "Xây Con TV",
+  "last_updated": "18:54 10/07/2026",
+  "groups": [
+    {
+      "id": "live",
+      "name": "🔴 Live bóng đá Xây Con",
+      "channels": []
+    }
+  ]
+}
