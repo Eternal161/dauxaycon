@@ -57,7 +57,7 @@ def get_final_logo(team_name: str, site_logo: str) -> str:
     return f"https://ui-avatars.com/api/?name={initials}&size=200&background=1565C0&color=ffffff&bold=true"
 
 # =========================================================
-# JS: EXTRACT DATA (CHUẨN HTML XÂY CON)
+# JS: EXTRACT DATA (ĐÃ SỬA LỖI DẤU GẠCH CHÉO /)
 # =========================================================
 JS_EXTRACT = """
 () => {
@@ -65,49 +65,42 @@ JS_EXTRACT = """
     const seen = new Set();
     const clean = t => (t || '').replace(/\\s+/g, ' ').trim();
 
-    // Lấy tất cả các thẻ a dẫn vào phòng xem bóng đá
-    const anchors = Array.from(document.querySelectorAll('a[href*="/truc-tiep/bong-da/"]'));
+    // 💡 ĐÃ FIX: Chỉ cần có chữ "truc-tiep" là bắt hết (xem-truc-tiep hay truc-tiep đều dính)
+    const anchors = Array.from(document.querySelectorAll('a[href*="truc-tiep"]'));
 
     for (const a of anchors) {
         const href = a.href;
         if (seen.has(href)) continue;
         seen.add(href);
 
-        // Lấy giải đấu (K League 2, Super League...)
         let league = '';
         const leagueEl = a.querySelector('p.text-sm');
         if (leagueEl) league = clean(leagueEl.innerText);
 
         let home = '', away = '', homeLogo = '', awayLogo = '';
         
-        // Khối grid chứa thông tin 2 đội
         const gridBox = a.querySelector('div[class*="grid-cols-[1fr_auto_1fr]"]');
         
         if (gridBox && gridBox.children.length >= 3) {
-            // Tên đội nằm trong thẻ span.truncate
             const homeSpan = gridBox.children[0].querySelector('span.truncate');
             const awaySpan = gridBox.children[2].querySelector('span.truncate');
             if (homeSpan) home = clean(homeSpan.innerText);
             if (awaySpan) away = clean(awaySpan.innerText);
             
-            // Logo nằm trong thẻ img
             const imgNha = gridBox.children[0].querySelector('img');
             const imgKhach = gridBox.children[2].querySelector('img');
             if (imgNha) homeLogo = imgNha.src;
             if (imgKhach) awayLogo = imgKhach.src;
         }
 
-        // Lấy thời gian (Gộp 17:30 và 10/07 lại)
         let timeStr = '';
         const timeSpans = a.querySelectorAll('span.bg-yellow-300, span.text-\\[18px\\]');
         if (timeSpans.length >= 2) {
             timeStr = clean(timeSpans[0].innerText) + ' ' + clean(timeSpans[1].innerText);
         }
 
-        // Check xem có đang Live không
-        const isLive = clean(a.innerText).toLowerCase().includes('trực tiếp');
+        const isLive = clean(a.innerText).toLowerCase().includes('trực tiếp') || clean(a.innerText).toLowerCase().includes('hiệp');
 
-        // Tìm tên BLV (BLV Ciu, BLV Rồng Đất...)
         let blvName = "BLV Mặc định";
         const allSpans = Array.from(a.querySelectorAll('div, span, p'));
         const blvEl = allSpans.find(el => clean(el.innerText).toUpperCase().startsWith('BLV '));
@@ -153,7 +146,7 @@ def capture_stream(context, match_url: str) -> list:
     return [s for sc, s in scored]
 
 # =========================================================
-# BUILD CHANNEL (MAP DỮ LIỆU ĐÃ GỘP)
+# BUILD CHANNEL
 # =========================================================
 def build_channel(m, stream_data):
     home = (m.get('home') or "Unknown").title()
@@ -211,15 +204,22 @@ def scrape_and_push():
         apply_stealth(page)
         
         try:
-            print("📺 Đang mở trang Xây Con...")
+            print(f"📺 Đang mở trang Xây Con: {TARGET_SITE}")
             page.goto(TARGET_SITE, wait_until="domcontentloaded", timeout=60000)
-            page.wait_for_timeout(5000)
+            
+            # 💡 ÉP BOT KIÊN NHẪN ĐỢI HTML RENDER XONG (Tối đa 15s)
+            try:
+                page.wait_for_selector('a[href*="truc-tiep"]', timeout=15000)
+            except Exception:
+                print("⚠️ Cảnh báo: Không tìm thấy thẻ trận đấu. Web có thể đang load chậm hoặc bị chặn.")
+                
+            page.wait_for_timeout(3000) # Đợi thêm 3s cho JS/React đẩy logo ra
         except Exception as e:
-            print(f"⚠️ Web load chậm, vẫn tiếp tục: {e}")
+            print(f"⚠️ Lỗi khi load web: {e}")
             
         raw_matches = page.evaluate(JS_EXTRACT)
+        print(f"🎯 JS_EXTRACT quét được: {len(raw_matches)} trận/link!")
         
-        # 💡 THUẬT TOÁN GỘP TRẬN (Nhóm các BLV chung 1 trận)
         grouped_matches = {}
         for m in raw_matches:
             h_lower = (m.get('home') or "").lower()
@@ -236,6 +236,7 @@ def scrape_and_push():
                 grouped_matches[key]['hrefs_and_blvs'].append((m['href'], blv_name))
 
         valid_matches = list(grouped_matches.values())[:LIMIT_MATCHES]
+        print(f"🎯 Lọc và gộp thành: {len(valid_matches)} trận đấu duy nhất!")
         
         channels = []
         for idx, m in enumerate(valid_matches, 1):
@@ -251,20 +252,23 @@ def scrape_and_push():
             channels.append(build_channel(m, all_match_streams))
 
     # Đẩy lên GitHub
-    g = Github(GITHUB_TOKEN)
-    repo = g.get_repo(REPO_NAME)
-    content = json.dumps({
-        "id": "xaycon", "name": "Xây Con TV", "last_updated": now_str, 
-        "groups": [{"id": "live", "name": "🔴 Live bóng đá Xây Con", "channels": channels}]
-    }, indent=2, ensure_ascii=False)
-    
-    msg = f"⚽ Update Xây Con (VN Time): {now_str}"
-    try:
-        existing = repo.get_contents(FILE_PATH)
-        repo.update_file(existing.path, msg, content, existing.sha)
-    except:
-        repo.create_file(FILE_PATH, msg, content)
-    print("\n✅ HOÀN TẤT CẬP NHẬT XÂY CON!")
+    if GITHUB_TOKEN:
+        g = Github(GITHUB_TOKEN)
+        repo = g.get_repo(REPO_NAME)
+        content = json.dumps({
+            "id": "xaycon", "name": "Xây Con TV", "last_updated": now_str, 
+            "groups": [{"id": "live", "name": "🔴 Live bóng đá Xây Con", "channels": channels}]
+        }, indent=2, ensure_ascii=False)
+        
+        msg = f"⚽ Update Xây Con (VN Time): {now_str}"
+        try:
+            existing = repo.get_contents(FILE_PATH)
+            repo.update_file(existing.path, msg, content, existing.sha)
+        except:
+            repo.create_file(FILE_PATH, msg, content)
+        print("\n✅ HOÀN TẤT CẬP NHẬT XÂY CON LÊN GITHUB!")
+    else:
+        print("\n⚠️ Không có GITHUB_TOKEN, chỉ chạy thử nghiệm tại local.")
 
 if __name__ == "__main__":
     scrape_and_push()
