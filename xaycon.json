@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "22:31 10/07/2026",
+  "last_updated": "22:41 10/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,11 +46,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e2dc0870bb",
+                          "id": "lnk-bbd44c79ef",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxg3gr4dymttgwanhc3sfa4urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=3deccf1ae3c21780f71b9075-178369748504751&wsIPSercert=92f27fce2962dacbae385dae086ba626&wsBindIP=2&wsserid=1168158473487963106"
+                          "url": "https://tfxg1gr4uqmtt8y41hcjz8rzdeqjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=dd65a829423b7a9bfc19eadf-178369807477503&wsIPSercert=405d63fb2464c4f3e8ea567cdff14264&wsBindIP=2&wsserid=1168214364742294105"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-748958bed6ca",
+          "name": "⚽ Vps vs Sjk | Veikkausliiga | 23:00 10/07",
+          "tournament": "Veikkausliiga",
+          "logo_nha": "https://media.api-sports.io/football/teams/650.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/689.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/650.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-748958bed6ca",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-748958bed6ca",
+                  "name": "Vps vs Sjk",
+                  "streams": [
+                    {
+                      "id": "xaycon-748958bed6ca",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9ca5a5ae69",
+                          "name": "BLV PIB",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tfxg1gr4uqmtt8y41hcjz8rzdeqjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8?wsSession=dd65a829423b7a9bfc19eadf-178369808105908&wsIPSercert=405d63fb2464c4f3e8ea567cdff14264&wsBindIP=2&wsserid=1168214364742294105"
                         }
                       ]
                     }
@@ -411,51 +464,6 @@
                   "streams": [
                     {
                       "id": "xaycon-333ee6fc0d04",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "xaycon-2c5c9c814549",
-          "name": "⚽ Norway vs England | World Cup | 04:00 12/07",
-          "tournament": "World Cup",
-          "logo_nha": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/250px-Flag_of_Norway.svg.png",
-          "logo_khach": "https://media.api-sports.io/football/teams/10.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/250px-Flag_of_Norway.svg.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-2c5c9c814549",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-2c5c9c814549",
-                  "name": "Norway vs England",
-                  "streams": [
-                    {
-                      "id": "xaycon-2c5c9c814549",
                       "name": "F",
                       "stream_links": []
                     }
