@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "19:08 10/07/2026",
+  "last_updated": "19:14 10/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a602055e87",
-                          "name": "BLV Ciu Đặt cược",
+                          "id": "lnk-bd9b78abf2",
+                          "name": "BLV Ciu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxg1gr4uqmtt8y41hcjsgyzdkcjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8?wsSession=f75f6470af28a14acee233bd-178368531908010&wsIPSercert=b774f4b6fae97a0b61fc71165098c2b0&wsBindIP=2&wsserid=1168283323406534424"
+                          "url": "https://tfxg0gr4uqmtt8y41hcjsgyzdnctufihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8?wsSession=f75f6470af28a14acee233bd-178368570577346&wsIPSercert=1a028b27e029c697d3a35eea11d494d7&wsBindIP=2&wsserid=1168283323406534424"
                         }
                       ]
                     }
@@ -99,11 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a19d2a382c",
-                          "name": "BLV Rồng Đất Đặt cược",
+                          "id": "lnk-f486c2d26f",
+                          "name": "BLV Rồng Đất",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxg1gr4uqmtt8y41hcjsgyzdkcjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=0bb9974e18223129e2110e8c-178368532554327&wsIPSercert=b774f4b6fae97a0b61fc71165098c2b0&wsBindIP=2&wsserid=1168283529569158070"
+                          "url": "https://tfxg0gr4uqmtt8y41hcjsgyzdnctufihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=0bb9974e18223129e2110e8c-178368571211746&wsIPSercert=1a028b27e029c697d3a35eea11d494d7&wsBindIP=2&wsserid=1168283529569158070"
                         }
                       ]
                     }
@@ -152,11 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c3a79c52d4",
-                          "name": "BLV Tam Mao Đặt cược",
+                          "id": "lnk-6a6b18c9a3",
+                          "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxg1gr4uqmtt8y41hcjsgyzdkcjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=527c539ebed211438b0a1787-178368533272884&wsIPSercert=b774f4b6fae97a0b61fc71165098c2b0&wsBindIP=2&wsserid=1168283323302724409"
+                          "url": "https://tfxg0gr4uqmtt8y41hcjsgyzdnctufihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=527c539ebed211438b0a1787-178368571897994&wsIPSercert=1a028b27e029c697d3a35eea11d494d7&wsBindIP=2&wsserid=1168283323302724409"
                         }
                       ]
                     }
