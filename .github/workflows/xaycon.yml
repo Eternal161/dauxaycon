@@ -1,4 +1,4 @@
-name: Hội Quán Bot
+name: Xây Con
 
 on:
   repository_dispatch:
