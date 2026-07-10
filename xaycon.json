@@ -1,12 +1,487 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "18:54 10/07/2026",
+  "last_updated": "19:08 10/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Live bóng đá Xây Con",
-      "channels": []
+      "channels": [
+        {
+          "id": "xaycon-f0225bd72839",
+          "name": "⚽ Cheonan City vs Gimhae City | K League 2 | 17:30 10/07",
+          "tournament": "K League 2",
+          "logo_nha": "https://media.api-sports.io/football/teams/7060.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/7076.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/7060.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-f0225bd72839",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-f0225bd72839",
+                  "name": "Cheonan City vs Gimhae City",
+                  "streams": [
+                    {
+                      "id": "xaycon-f0225bd72839",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a602055e87",
+                          "name": "BLV Ciu Đặt cược",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tfxg1gr4uqmtt8y41hcjsgyzdkcjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8?wsSession=f75f6470af28a14acee233bd-178368531908010&wsIPSercert=b774f4b6fae97a0b61fc71165098c2b0&wsBindIP=2&wsserid=1168283323406534424"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-e88cde155edd",
+          "name": "⚽ Suwon City Fc vs Jeonnam Dragons | K League 2 | 17:30 10/07",
+          "tournament": "K League 2",
+          "logo_nha": "https://media.api-sports.io/football/teams/2756.png",
+          "logo_khach": "https://upload.wikimedia.org/wikipedia/en/0/08/Jeonnam_Dragons.svg",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/2756.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-e88cde155edd",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-e88cde155edd",
+                  "name": "Suwon City Fc vs Jeonnam Dragons",
+                  "streams": [
+                    {
+                      "id": "xaycon-e88cde155edd",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a19d2a382c",
+                          "name": "BLV Rồng Đất Đặt cược",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tfxg1gr4uqmtt8y41hcjsgyzdkcjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=0bb9974e18223129e2110e8c-178368532554327&wsIPSercert=b774f4b6fae97a0b61fc71165098c2b0&wsBindIP=2&wsserid=1168283529569158070"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-04b5c976ea2f",
+          "name": "⚽ Shandong Luneng vs Yunnan Yukun | Super League | 18:35 10/07",
+          "tournament": "Super League",
+          "logo_nha": "https://media.api-sports.io/football/teams/844.png",
+          "logo_khach": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Yunnan_Yukun_F.C.svg/960px-Yunnan_Yukun_F.C.svg.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/844.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-04b5c976ea2f",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-04b5c976ea2f",
+                  "name": "Shandong Luneng vs Yunnan Yukun",
+                  "streams": [
+                    {
+                      "id": "xaycon-04b5c976ea2f",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c3a79c52d4",
+                          "name": "BLV Tam Mao Đặt cược",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tfxg1gr4uqmtt8y41hcjsgyzdkcjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=527c539ebed211438b0a1787-178368533272884&wsIPSercert=b774f4b6fae97a0b61fc71165098c2b0&wsBindIP=2&wsserid=1168283323302724409"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-813e4ddf90ff",
+          "name": "⚽ Shakhter Karagandy vs Turan Turkistan | 1. Division | 20:00 10/07",
+          "tournament": "1. Division",
+          "logo_nha": "https://media.api-sports.io/football/teams/4566.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/21502.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/4566.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-813e4ddf90ff",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-813e4ddf90ff",
+                  "name": "Shakhter Karagandy vs Turan Turkistan",
+                  "streams": [
+                    {
+                      "id": "xaycon-813e4ddf90ff",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-4c1560474308",
+          "name": "⚽ Fc Dnepr Mogilev vs Fc Minsk | Premier League | 22:30 10/07",
+          "tournament": "Premier League",
+          "logo_nha": "https://media.api-sports.io/football/teams/384.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/380.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/384.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-4c1560474308",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-4c1560474308",
+                  "name": "Fc Dnepr Mogilev vs Fc Minsk",
+                  "streams": [
+                    {
+                      "id": "xaycon-4c1560474308",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-64c25400ab2d",
+          "name": "⚽ Spain vs Belgium | World Cup | 02:00 11/07",
+          "tournament": "World Cup",
+          "logo_nha": "https://media.api-sports.io/football/teams/9.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/1.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/9.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-64c25400ab2d",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-64c25400ab2d",
+                  "name": "Spain vs Belgium",
+                  "streams": [
+                    {
+                      "id": "xaycon-64c25400ab2d",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-4c37ec28bdef",
+          "name": "⚽ Sport Recife vs Botafogo Sp | Serie B | 06:00 11/07",
+          "tournament": "Serie B",
+          "logo_nha": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Sport_Club_Recife.svg/250px-Sport_Club_Recife.svg.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/2618.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Sport_Club_Recife.svg/250px-Sport_Club_Recife.svg.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-4c37ec28bdef",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-4c37ec28bdef",
+                  "name": "Sport Recife vs Botafogo Sp",
+                  "streams": [
+                    {
+                      "id": "xaycon-4c37ec28bdef",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-aed6db30c14f",
+          "name": "⚽ Ulsan Hyundai Fc vs Jeonbuk Motors | K League 1 | 17:30 11/07",
+          "tournament": "K League 1",
+          "logo_nha": "https://media.api-sports.io/football/teams/2767.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/2762.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/2767.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-aed6db30c14f",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-aed6db30c14f",
+                  "name": "Ulsan Hyundai Fc vs Jeonbuk Motors",
+                  "streams": [
+                    {
+                      "id": "xaycon-aed6db30c14f",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-51a24f40845d",
+          "name": "⚽ Shanghai Shenhua vs Beijing Guoan | Super League | 18:35 11/07",
+          "tournament": "Super League",
+          "logo_nha": "https://upload.wikimedia.org/wikipedia/vi/d/dd/Shanghai_Shenhua_F.C.svg.png",
+          "logo_khach": "https://upload.wikimedia.org/wikipedia/en/a/a8/Beijing_Guoan_F.C.svg",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload.wikimedia.org/wikipedia/vi/d/dd/Shanghai_Shenhua_F.C.svg.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-51a24f40845d",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-51a24f40845d",
+                  "name": "Shanghai Shenhua vs Beijing Guoan",
+                  "streams": [
+                    {
+                      "id": "xaycon-51a24f40845d",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-04d0e4dfdbad",
+          "name": "⚽ Lahti vs Hjk Helsinki | Veikkausliiga | 19:00 11/07",
+          "tournament": "Veikkausliiga",
+          "logo_nha": "https://media.api-sports.io/football/teams/1166.png",
+          "logo_khach": "https://upload.wikimedia.org/wikipedia/pt/e/ec/HJK_Helsinki_Logo.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/1166.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-04d0e4dfdbad",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-04d0e4dfdbad",
+                  "name": "Lahti vs Hjk Helsinki",
+                  "streams": [
+                    {
+                      "id": "xaycon-04d0e4dfdbad",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
