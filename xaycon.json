@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "03:01 11/07/2026",
+  "last_updated": "03:11 11/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8669e3df37",
+                          "id": "lnk-e042071319",
                           "name": "BLV PIB",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxg1gr4dymttgwanhc3sfaauccbpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8?wsSession=f5f570a3bb9d14f558978d9a-178371369192966&wsIPSercert=f9a04b6eefdc182a7c6e85949b5e006a&wsBindIP=2&wsserid=1168282037991221552"
+                          "url": "https://tfxg1gr4uqmtt8y41hcjz8rzdeqjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8?wsSession=dd65a829423b7a9bfc19eadf-178371427595189&wsIPSercert=5993632a08eac475c679620c2c93641e&wsBindIP=2&wsserid=1168214364742294105"
                         }
                       ]
                     }
@@ -99,18 +99,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2fb4ee2d82",
+                          "id": "lnk-9ee3471982",
                           "name": "BLV PIB",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxg1gr4dymttgwanhc3sfaauccbpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8?wsSession=f5f570a3bb9d14f558978d9a-178371369827314&wsIPSercert=f9a04b6eefdc182a7c6e85949b5e006a&wsBindIP=2&wsserid=1168282037991221552"
+                          "url": "https://tfxg1gr4uqmtt8y41hcjz8rzdeqjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8?wsSession=dd65a829423b7a9bfc19eadf-178371428228200&wsIPSercert=5993632a08eac475c679620c2c93641e&wsBindIP=2&wsserid=1168214364742294105"
                         },
                         {
-                          "id": "lnk-aeef57917e",
+                          "id": "lnk-553123b20a",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": false,
-                          "url": "https://tfxg1gr4dymttgwanhc3sfaauccbpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=0fecc200ad94635c875c47ce-178371370505911&wsIPSercert=f9a04b6eefdc182a7c6e85949b5e006a&wsBindIP=2&wsserid=1168282035663924028"
+                          "url": "https://tfxg1gr4uqmtt8y41hcjz8rzdeqjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=dd65a829423b7a9bfc19eadf-178371428908865&wsIPSercert=5993632a08eac475c679620c2c93641e&wsBindIP=2&wsserid=1168214364742294105"
                         }
                       ]
                     }
