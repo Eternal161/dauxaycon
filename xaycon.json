@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "21:21 10/07/2026",
+  "last_updated": "21:31 10/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-876ec73b7e",
+                          "id": "lnk-6d9eeec19c",
                           "name": "BLV Kent",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxg0gr4uqmtt8y41hcjzgazdnc3ofihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8?wsSession=0ab5b71b14aba07355916d00-178369327058457&wsIPSercert=f32c1d9213f9fbc50ce05817f8e3bdd0&wsBindIP=2&wsserid=1168176346315811943"
+                          "url": "https://tfxg0gr4uqmtt8y41hcjsgyzdnpbwfihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8?wsSession=d9cfdf77ae664d12283c2a57-178369387443739&wsIPSercert=5254abfd0b805fd67fad16883f004f31&wsBindIP=2&wsserid=1168283477112290290"
                         }
                       ]
                     }
