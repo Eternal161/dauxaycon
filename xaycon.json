@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "19:41 10/07/2026",
+  "last_updated": "19:51 10/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8ee420b6e7",
+                          "id": "lnk-29d8616a1f",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxg4gchnhcjo8rzdrpjtfa4146ddptwzc3jqxfozr5udctznh5djq31o.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=2405a2a24215f54d1eb1e38c-178368728531833&wsIPSercert=2d4dd612aa318db031a9b5cc99090238&wsBindIP=2&wsserid=1168168154453604765"
+                          "url": "https://tfxg3gr4dymttgwanhc3sfa4urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=3deccf1ae3c21780f71b9075-178368787068847&wsIPSercert=842a515e0be0eca2887f86a605650ec7&wsBindIP=2&wsserid=1168158473487963106"
                         }
                       ]
                     }
@@ -99,11 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ccbb554d85",
+                          "id": "lnk-eb27a59847",
                           "name": "BLV Kent",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8"
+                          "url": "https://tfxg3gr4dymttgwanhc3sfa4urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8?wsSession=2913e7e4a41189eb44ceed4c-178368787698751&wsIPSercert=842a515e0be0eca2887f86a605650ec7&wsBindIP=2&wsserid=1172662091344090222"
                         }
                       ]
                     }
