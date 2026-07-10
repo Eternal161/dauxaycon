@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "19:51 10/07/2026",
+  "last_updated": "20:01 10/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-29d8616a1f",
+                          "id": "lnk-237be8936a",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxg3gr4dymttgwanhc3sfa4urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=3deccf1ae3c21780f71b9075-178368787068847&wsIPSercert=842a515e0be0eca2887f86a605650ec7&wsBindIP=2&wsserid=1168158473487963106"
+                          "url": "https://tfxg0gr4uqmtt8y41hcjsgyzdnctafihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=527c539ebed211438b0a1787-178368848747860&wsIPSercert=a24ad7bbe09d6e6a61a9a39c0d97b486&wsBindIP=2&wsserid=1168283323302724409"
                         }
                       ]
                     }
@@ -99,11 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-eb27a59847",
+                          "id": "lnk-7dd2ff1133",
                           "name": "BLV Kent",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxg3gr4dymttgwanhc3sfa4urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8?wsSession=2913e7e4a41189eb44ceed4c-178368787698751&wsIPSercert=842a515e0be0eca2887f86a605650ec7&wsBindIP=2&wsserid=1172662091344090222"
+                          "url": "https://tfxg0gr4uqmtt8y41hcjsgyzdnctafihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8?wsSession=d9cfdf77ae664d12283c2a57-178368849379829&wsIPSercert=a24ad7bbe09d6e6a61a9a39c0d97b486&wsBindIP=2&wsserid=1168283477112290290"
                         }
                       ]
                     }
@@ -114,7 +114,7 @@
           ]
         },
         {
-          "id": "xaycon-4c1560474308",
+          "id": "xaycon-7b00651892a1",
           "name": "⚽ Fc Dnepr Mogilev vs Fc Minsk | Premier League | 22:30 10/07",
           "tournament": "Premier League",
           "logo_nha": "https://media.api-sports.io/football/teams/384.png",
@@ -140,15 +140,15 @@
           ],
           "sources": [
             {
-              "id": "xaycon-4c1560474308",
+              "id": "xaycon-7b00651892a1",
               "name": "Xây Con TV",
               "contents": [
                 {
-                  "id": "xaycon-4c1560474308",
+                  "id": "xaycon-7b00651892a1",
                   "name": "Fc Dnepr Mogilev vs Fc Minsk",
                   "streams": [
                     {
-                      "id": "xaycon-4c1560474308",
+                      "id": "xaycon-7b00651892a1",
                       "name": "F",
                       "stream_links": []
                     }
