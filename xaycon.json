@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "20:21 10/07/2026",
+  "last_updated": "20:31 10/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bdecdbb2b5",
+                          "id": "lnk-4df5f5c632",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxg1gr4uqmtt8y41hcjz8rzdrctpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=dd65a829423b7a9bfc19eadf-178368968025844&wsIPSercert=bdb938f8c0dc61eabf9fc13af6705f23&wsBindIP=2&wsserid=1168214364742294105"
+                          "url": "https://tfxg0gr4uqmtt8y41hcjz8rzdrcjafihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=0e4b1b37549e237ae7f7db1e-178369027663019&wsIPSercert=c5efc4fe556cb3443df089b565272075&wsBindIP=2&wsserid=1168176346318957775"
                         }
                       ]
                     }
@@ -99,11 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-333fa69e05",
+                          "id": "lnk-3ead1aea98",
                           "name": "BLV Kent",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxg1gr4uqmtt8y41hcjz8rzdrctpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8?wsSession=0ab5b71b14aba07355916d00-178368968662302&wsIPSercert=bdb938f8c0dc61eabf9fc13af6705f23&wsBindIP=2&wsserid=1168176346315811943"
+                          "url": "https://tfxg0gr4uqmtt8y41hcjz8rzdrcjafihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8?wsSession=30b1aee6d195528f042a6f87-178369028296568&wsIPSercert=c5efc4fe556cb3443df089b565272075&wsBindIP=2&wsserid=1168176337061519089"
                         }
                       ]
                     }
