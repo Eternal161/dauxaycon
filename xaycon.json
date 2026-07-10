@@ -1,65 +1,12 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "21:51 10/07/2026",
+  "last_updated": "22:01 10/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Live bóng đá Xây Con",
       "channels": [
-        {
-          "id": "xaycon-813e4ddf90ff",
-          "name": "⚽ Shakhter Karagandy vs Turan Turkistan | 1. Division | 20:00 10/07",
-          "tournament": "1. Division",
-          "logo_nha": "https://media.api-sports.io/football/teams/4566.png",
-          "logo_khach": "https://media.api-sports.io/football/teams/21502.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/4566.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-813e4ddf90ff",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-813e4ddf90ff",
-                  "name": "Shakhter Karagandy vs Turan Turkistan",
-                  "streams": [
-                    {
-                      "id": "xaycon-813e4ddf90ff",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ab07842c65",
-                          "name": "BLV Kent",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tfxg0gr4uqmtt8y41hcjzgazdnpbwfihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8?wsSession=30b1aee6d195528f042a6f87-178369508984830&wsIPSercert=dd24c4e9773bb4b6cfa3eb23ecb97b14&wsBindIP=2&wsserid=1168176337061519089"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "xaycon-7b00651892a1",
           "name": "⚽ Fc Dnepr Mogilev vs Fc Minsk | Premier League | 22:30 10/07",
@@ -456,6 +403,51 @@
                   "streams": [
                     {
                       "id": "xaycon-333ee6fc0d04",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-2c5c9c814549",
+          "name": "⚽ Norway vs England | World Cup | 04:00 12/07",
+          "tournament": "World Cup",
+          "logo_nha": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/250px-Flag_of_Norway.svg.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/10.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/250px-Flag_of_Norway.svg.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-2c5c9c814549",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-2c5c9c814549",
+                  "name": "Norway vs England",
+                  "streams": [
+                    {
+                      "id": "xaycon-2c5c9c814549",
                       "name": "F",
                       "stream_links": []
                     }
