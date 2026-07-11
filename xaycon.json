@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "04:41 12/07/2026",
+  "last_updated": "04:51 12/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-200d34240a",
+                          "id": "lnk-5f4b875495",
                           "name": "BLV Kent",
                           "type": "hls",
                           "default": true,
@@ -99,25 +99,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d762dd5aae",
+                          "id": "lnk-15b508f409",
                           "name": "BLV PIB",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxh3gr4dymttgwanhc3sfa4urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8?wsSession=3deccf1ae3c21780f71b9075-178380609389017&wsIPSercert=44ff19f37f2c6fc73930696738c5cc37&wsBindIP=2&wsserid=1168158473487963106"
+                          "url": "https://tfxh0gr4uqmtt8y41hcjsgyzdnctufihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8?wsSession=214abf917bf2df58627cf314-178380667854645&wsIPSercert=664d6f57db4e84f602f87fa7cbab2b2a&wsBindIP=2&wsserid=1168283323432748950"
                         },
                         {
-                          "id": "lnk-b17a1cc423",
+                          "id": "lnk-9de527987b",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": false,
-                          "url": "https://tfxh3gr4dymttgwanhc3sfa4urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=3deccf1ae3c21780f71b9075-178380610058177&wsIPSercert=44ff19f37f2c6fc73930696738c5cc37&wsBindIP=2&wsserid=1168158473487963106"
+                          "url": "https://tfxh0gr4uqmtt8y41hcjsgyzdnctufihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=527c539ebed211438b0a1787-178380668539197&wsIPSercert=664d6f57db4e84f602f87fa7cbab2b2a&wsBindIP=2&wsserid=1168283323302724409"
                         },
                         {
-                          "id": "lnk-dd5970920f",
+                          "id": "lnk-34f52555f9",
                           "name": "BLV Rồng Đất",
                           "type": "hls",
                           "default": false,
-                          "url": "https://tfxh3gr4dymttgwanhc3sfa4urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=3deccf1ae3c21780f71b9075-178380610681020&wsIPSercert=44ff19f37f2c6fc73930696738c5cc37&wsBindIP=2&wsserid=1168158473487963106"
+                          "url": "https://tfxh0gr4uqmtt8y41hcjsgyzdnctufihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=0bb9974e18223129e2110e8c-178380669167868&wsIPSercert=664d6f57db4e84f602f87fa7cbab2b2a&wsBindIP=2&wsserid=1168283529569158070"
                         }
                       ]
                     }
