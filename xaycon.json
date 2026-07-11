@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "00:41 12/07/2026",
+  "last_updated": "00:51 12/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-116094468a",
+                          "id": "lnk-e79a061293",
                           "name": "BLV PIB",
                           "type": "hls",
                           "default": true,
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-992a9ea0cc",
+                          "id": "lnk-665887554b",
                           "name": "BLV Rồng Đất",
                           "type": "hls",
                           "default": true,
@@ -152,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1ec6df8244",
+                          "id": "lnk-9c108e3a73",
                           "name": "BLV Kent",
                           "type": "hls",
                           "default": true,
