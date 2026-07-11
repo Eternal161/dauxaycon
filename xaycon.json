@@ -1,65 +1,12 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "20:51 11/07/2026",
+  "last_updated": "21:01 11/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Live bóng đá Xây Con",
       "channels": [
-        {
-          "id": "xaycon-04d0e4dfdbad",
-          "name": "⚽ Lahti vs Hjk Helsinki | Veikkausliiga | 19:00 11/07",
-          "tournament": "Veikkausliiga",
-          "logo_nha": "https://media.api-sports.io/football/teams/1166.png",
-          "logo_khach": "https://upload.wikimedia.org/wikipedia/pt/e/ec/HJK_Helsinki_Logo.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/1166.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-04d0e4dfdbad",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-04d0e4dfdbad",
-                  "name": "Lahti vs Hjk Helsinki",
-                  "streams": [
-                    {
-                      "id": "xaycon-04d0e4dfdbad",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b56dfc1fbe",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tfxh3gr4dymttgwanhc3sfa4urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=3deccf1ae3c21780f71b9075-178377786772352&wsIPSercert=06cb20d404eaeeb5256a12e93136e9dc&wsBindIP=2&wsserid=1168158473487963106"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "xaycon-e13fbfd782b7",
           "name": "⚽ Turku Ps vs Ac Oulu | Veikkausliiga | 21:00 11/07",
@@ -99,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2b9235b9ca",
+                          "id": "lnk-f72c13206c",
                           "name": "BLV PIB",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxh3gr4dymttgwanhc3sfa4urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8?wsSession=3deccf1ae3c21780f71b9075-178377787375104&wsIPSercert=06cb20d404eaeeb5256a12e93136e9dc&wsBindIP=2&wsserid=1168158473487963106"
+                          "url": "https://tfxh1gr4uqmtt8y41hcjz8rzd1pbpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8?wsSession=0cf49710599689c654348a33-178377848408488&wsIPSercert=f88ff5eb7010cfa9fb92afe47a4ce90a&wsBindIP=2&wsserid=1168176346316860571"
                         }
                       ]
                     }
