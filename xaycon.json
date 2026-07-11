@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "20:10 11/07/2026",
+  "last_updated": "20:21 11/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-64fe58527d",
+                          "id": "lnk-d4ceffc982",
                           "name": "BLV Kent",
                           "type": "hls",
                           "default": true,
@@ -99,11 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bf25036f6d",
+                          "id": "lnk-b79e949768",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxh1gr3uomttgr31hcj3fa3dkcbpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=269e7cfbbd459e2e0bf3bfd4-178377547341154&wsIPSercert=6296fc1233e880d15e07a81e8e2cfbb0&wsBindIP=2&wsserid=1168235283031012122"
+                          "url": "https://tfxh0gr4uqmtt8y41hcjsgyzdnpbwfihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=527c539ebed211438b0a1787-178377607689386&wsIPSercert=6f3dc0e012514db1c3aa9aaee5cfa2ae&wsBindIP=2&wsserid=1168283323302724409"
                         }
                       ]
                     }
