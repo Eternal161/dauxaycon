@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "23:11 12/07/2026",
+  "last_updated": "23:21 12/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6642a4ee0a",
+                          "id": "lnk-e6b760277a",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": true,
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5c429e18e9",
+                          "id": "lnk-ce3dd8c11b",
                           "name": "BLV Rồng Đất",
                           "type": "hls",
                           "default": true,
