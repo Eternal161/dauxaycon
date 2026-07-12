@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "17:21 12/07/2026",
+  "last_updated": "17:31 12/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-db4da3fa4d",
+                          "id": "lnk-adf873b609",
                           "name": "BLV Ciu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxi0gr4uqmtt8y41hcjsgyzdnpbafihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8?wsSession=ce1e98a8c25e146685d78e62-178385167190728&wsIPSercert=c17e892a8f4bda06d71e20f887124610&wsBindIP=2&wsserid=1168231589596984705"
+                          "url": "https://tfxi0gr4uqmtt8y41hcjz8rzdncbofihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8?wsSession=14c06b90294daa39133930cf-178385227471386&wsIPSercert=087b567d1f22eac9020db9fb116545d7&wsBindIP=2&wsserid=1168176346313714739"
                         }
                       ]
                     }
@@ -286,6 +286,51 @@
           ]
         },
         {
+          "id": "xaycon-49315cc2ece8",
+          "name": "⚽ Crb vs Goias | Serie B | 05:00 13/07",
+          "tournament": "Serie B",
+          "logo_nha": "https://media.api-sports.io/football/teams/146.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/151.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/146.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-49315cc2ece8",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-49315cc2ece8",
+                  "name": "Crb vs Goias",
+                  "streams": [
+                    {
+                      "id": "xaycon-49315cc2ece8",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "xaycon-62a67d091f40",
           "name": "⚽ Cf Montreal vs Vancouver Fc | Canadian Championship | 06:30 13/07",
           "tournament": "Canadian Championship",
@@ -411,51 +456,6 @@
                   "streams": [
                     {
                       "id": "xaycon-a99b72946285",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "xaycon-83cf0c71f219",
-          "name": "⚽ Chelyabinsk vs Ska-Khabarovsk | First League | 21:00 13/07",
-          "tournament": "First League",
-          "logo_nha": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/CoA_of_Chelyabinsk_%282000%29.svg/250px-CoA_of_Chelyabinsk_%282000%29.svg.png",
-          "logo_khach": "https://media.api-sports.io/football/teams/1087.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/CoA_of_Chelyabinsk_%282000%29.svg/250px-CoA_of_Chelyabinsk_%282000%29.svg.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-83cf0c71f219",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-83cf0c71f219",
-                  "name": "Chelyabinsk vs Ska-Khabarovsk",
-                  "streams": [
-                    {
-                      "id": "xaycon-83cf0c71f219",
                       "name": "F",
                       "stream_links": []
                     }
