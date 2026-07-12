@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "09:01 12/07/2026",
+  "last_updated": "09:11 12/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,21 +46,21 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6d2c41758c",
+                          "id": "lnk-7e87748c5f",
                           "name": "BLV PIB",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxi4gchnhcjo8rzdrpjtfa4146ddptwzc3jqxfozr5udctznh5djq31o.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8?wsSession=00a62cc6094de4f7b329cc7e-178382168329464&wsIPSercert=a0e667a0d65d9a3a08cb98e032f06a72&wsBindIP=2&wsserid=1168168154451507561"
+                          "url": "https://tfxi1gr4uqmtt8y41hcjsgyzdkcjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8?wsSession=214abf917bf2df58627cf314-178382227118345&wsIPSercert=008f69f783670332d269b1df8c1869f4&wsBindIP=2&wsserid=1168283323432748950"
                         },
                         {
-                          "id": "lnk-fcdd4c07f4",
+                          "id": "lnk-fe5ef8f938",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": false,
-                          "url": "https://tfxi4gchnhcjo8rzdrpjtfa4146ddptwzc3jqxfozr5udctznh5djq31o.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=2405a2a24215f54d1eb1e38c-178382168986339&wsIPSercert=a0e667a0d65d9a3a08cb98e032f06a72&wsBindIP=2&wsserid=1168168154453604765"
+                          "url": "https://tfxi1gr4uqmtt8y41hcjsgyzdkcjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=527c539ebed211438b0a1787-178382227754951&wsIPSercert=008f69f783670332d269b1df8c1869f4&wsBindIP=2&wsserid=1168283323302724409"
                         },
                         {
-                          "id": "lnk-1e72d30e3a",
+                          "id": "lnk-bf8fc0dc65",
                           "name": "BLV Ciu",
                           "type": "hls",
                           "default": false,
