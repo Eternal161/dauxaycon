@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "10:51 12/07/2026",
+  "last_updated": "11:01 12/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,21 +46,21 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-96aeb2ab6a",
+                          "id": "lnk-c54f7a51a2",
                           "name": "BLV PIB",
                           "type": "hls",
                           "default": true,
                           "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8"
                         },
                         {
-                          "id": "lnk-1a979316b1",
+                          "id": "lnk-4638a635c8",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": false,
                           "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8"
                         },
                         {
-                          "id": "lnk-8d7af35a13",
+                          "id": "lnk-33ae4c9539",
                           "name": "BLV Ciu",
                           "type": "hls",
                           "default": false,
