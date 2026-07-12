@@ -1,65 +1,12 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "03:01 13/07/2026",
+  "last_updated": "03:11 13/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Live bóng đá Xây Con",
       "channels": [
-        {
-          "id": "xaycon-79734d7b6843",
-          "name": "⚽ Independ. Rivadavia vs Tigre | Copa Argentina | 02:15 13/07",
-          "tournament": "Copa Argentina",
-          "logo_nha": "https://media.api-sports.io/football/teams/473.png",
-          "logo_khach": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Escudo_del_Club_Atl%C3%A9tico_Tigre_-_2019.svg/960px-Escudo_del_Club_Atl%C3%A9tico_Tigre_-_2019.svg.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/473.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-79734d7b6843",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-79734d7b6843",
-                  "name": "Independ. Rivadavia vs Tigre",
-                  "streams": [
-                    {
-                      "id": "xaycon-79734d7b6843",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-97ce5a4de7",
-                          "name": "BLV Rồng Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "xaycon-49315cc2ece8",
           "name": "⚽ Crb vs Goias | Serie B | 05:00 13/07",
@@ -456,6 +403,51 @@
                   "streams": [
                     {
                       "id": "xaycon-4af33e6167cb",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-20337f01f32f",
+          "name": "⚽ Cavalry Fc vs Vancouver Whitecaps | Canadian Championship | 08:30 14/07",
+          "tournament": "Canadian Championship",
+          "logo_nha": "https://media.api-sports.io/football/teams/2619.png",
+          "logo_khach": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Vancouver_Whitecaps_logo.svg",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/2619.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-20337f01f32f",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-20337f01f32f",
+                  "name": "Cavalry Fc vs Vancouver Whitecaps",
+                  "streams": [
+                    {
+                      "id": "xaycon-20337f01f32f",
                       "name": "F",
                       "stream_links": []
                     }
