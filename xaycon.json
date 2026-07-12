@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "08:41 12/07/2026",
+  "last_updated": "08:51 12/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,14 +46,21 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-36f98a2001",
-                          "name": "BLV Tam Mao",
+                          "id": "lnk-604e11e83e",
+                          "name": "BLV PIB",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxi0gr4uqmtt8y41hcjsgyzdnctufihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=527c539ebed211438b0a1787-178382047767721&wsIPSercert=67f4ee9476aad5a9be3fbb9e6777f330&wsBindIP=2&wsserid=1168283323302724409"
+                          "url": "https://tfxi0gr4uqmtt8y41hcjz8rzdrcjafihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8?wsSession=0cf49710599689c654348a33-178382107091254&wsIPSercert=7121cb67cbc084d57e2b458d612c9eb3&wsBindIP=2&wsserid=1168176346316860571"
                         },
                         {
-                          "id": "lnk-c8fdfb2050",
+                          "id": "lnk-59cec6ee8b",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://tfxi0gr4uqmtt8y41hcjz8rzdrcjafihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=30b1aee6d195528f042a6f87-178382107719836&wsIPSercert=7121cb67cbc084d57e2b458d612c9eb3&wsBindIP=2&wsserid=1168176337061519089"
+                        },
+                        {
+                          "id": "lnk-2a79751808",
                           "name": "BLV Ciu",
                           "type": "hls",
                           "default": false,
