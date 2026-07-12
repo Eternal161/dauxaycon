@@ -1,12 +1,527 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "20:31 12/07/2026",
+  "last_updated": "20:41 12/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Live bóng đá Xây Con",
-      "channels": []
+      "channels": [
+        {
+          "id": "xaycon-e7d56f7f8fba",
+          "name": "⚽ Fc Seoul vs Gangwon Fc | K League 1 | 17:30 12/07",
+          "tournament": "K League 1",
+          "logo_nha": "https://media.api-sports.io/football/teams/2766.png",
+          "logo_khach": "https://upload.wikimedia.org/wikipedia/en/f/fe/Gangwon_FC.svg",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/2766.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-e7d56f7f8fba",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-e7d56f7f8fba",
+                  "name": "Fc Seoul vs Gangwon Fc",
+                  "streams": [
+                    {
+                      "id": "xaycon-e7d56f7f8fba",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3ccbc2c776",
+                          "name": "BLV Ciu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-794f4e056e90",
+          "name": "⚽ Shanghai Sipg vs Dalian Zhixing | Super League | 18:35 12/07",
+          "tournament": "Super League",
+          "logo_nha": "https://media.api-sports.io/football/teams/836.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/21263.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/836.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-794f4e056e90",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-794f4e056e90",
+                  "name": "Shanghai Sipg vs Dalian Zhixing",
+                  "streams": [
+                    {
+                      "id": "xaycon-794f4e056e90",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-420de475b2",
+                          "name": "BLV Kent",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-cd1fc69a4dba",
+          "name": "⚽ Operario-Pr vs Novorizontino | Serie B | 21:00 12/07",
+          "tournament": "Serie B",
+          "logo_nha": "https://media.api-sports.io/football/teams/1223.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/7834.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/1223.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-cd1fc69a4dba",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-cd1fc69a4dba",
+                  "name": "Operario-Pr vs Novorizontino",
+                  "streams": [
+                    {
+                      "id": "xaycon-cd1fc69a4dba",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a1b5251332",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tfxi0gr4uqmtt8y41hcjsgyzdnpbufihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=5b53f9dab67ae6e0f12f2a80-178386369309917&wsIPSercert=1fcf0655a68b4cc0848a40202b61c43e&wsBindIP=2&wsserid=1168231785641135723"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-6bb0305a70c2",
+          "name": "⚽ Cobreloa vs D. La Serena | Copa Chile | 23:30 12/07",
+          "tournament": "Copa Chile",
+          "logo_nha": "https://media.api-sports.io/football/teams/2332.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/2341.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/2332.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-6bb0305a70c2",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-6bb0305a70c2",
+                  "name": "Cobreloa vs D. La Serena",
+                  "streams": [
+                    {
+                      "id": "xaycon-6bb0305a70c2",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-917b2bc8b0",
+                          "name": "BLV Rồng Đất",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-a9e882f5b6e1",
+          "name": "⚽ Sarpsborg 08 Ff vs Viking | Eliteserien | 00:15 13/07",
+          "tournament": "Eliteserien",
+          "logo_nha": "https://media.api-sports.io/football/teams/333.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/759.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/333.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-a9e882f5b6e1",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-a9e882f5b6e1",
+                  "name": "Sarpsborg 08 Ff vs Viking",
+                  "streams": [
+                    {
+                      "id": "xaycon-a9e882f5b6e1",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4b143cc16",
+                          "name": "BLV PIB",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-79734d7b6843",
+          "name": "⚽ Independ. Rivadavia vs Tigre | Copa Argentina | 02:15 13/07",
+          "tournament": "Copa Argentina",
+          "logo_nha": "https://media.api-sports.io/football/teams/473.png",
+          "logo_khach": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Escudo_del_Club_Atl%C3%A9tico_Tigre_-_2019.svg/960px-Escudo_del_Club_Atl%C3%A9tico_Tigre_-_2019.svg.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/473.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-79734d7b6843",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-79734d7b6843",
+                  "name": "Independ. Rivadavia vs Tigre",
+                  "streams": [
+                    {
+                      "id": "xaycon-79734d7b6843",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-86d62bed0d",
+                          "name": "BLV Rồng Đất",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-49315cc2ece8",
+          "name": "⚽ Crb vs Goias | Serie B | 05:00 13/07",
+          "tournament": "Serie B",
+          "logo_nha": "https://media.api-sports.io/football/teams/146.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/151.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/146.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-49315cc2ece8",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-49315cc2ece8",
+                  "name": "Crb vs Goias",
+                  "streams": [
+                    {
+                      "id": "xaycon-49315cc2ece8",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bb4a3edd9f",
+                          "name": "BLV Ciu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-62a67d091f40",
+          "name": "⚽ Cf Montreal vs Vancouver Fc | Canadian Championship | 06:30 13/07",
+          "tournament": "Canadian Championship",
+          "logo_nha": "https://media.api-sports.io/football/teams/1614.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/20881.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/1614.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-62a67d091f40",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-62a67d091f40",
+                  "name": "Cf Montreal vs Vancouver Fc",
+                  "streams": [
+                    {
+                      "id": "xaycon-62a67d091f40",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-162ecf1b71",
+                          "name": "BLV Kent",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-c9f49b3ca46b",
+          "name": "⚽ Ningbo Professional vs Dongguan United | League One | 18:00 13/07",
+          "tournament": "League One",
+          "logo_nha": "https://media.api-sports.io/football/teams/27556.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/17263.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/27556.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-c9f49b3ca46b",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-c9f49b3ca46b",
+                  "name": "Ningbo Professional vs Dongguan United",
+                  "streams": [
+                    {
+                      "id": "xaycon-c9f49b3ca46b",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-a99b72946285",
+          "name": "⚽ Ugyen Academy vs Transport United | Premier League | 19:00 13/07",
+          "tournament": "Premier League",
+          "logo_nha": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Ugyen_Academy_FC.png/250px-Ugyen_Academy_FC.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/5593.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Ugyen_Academy_FC.png/250px-Ugyen_Academy_FC.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-a99b72946285",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-a99b72946285",
+                  "name": "Ugyen Academy vs Transport United",
+                  "streams": [
+                    {
+                      "id": "xaycon-a99b72946285",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
