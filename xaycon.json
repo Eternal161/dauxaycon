@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "18:21 12/07/2026",
+  "last_updated": "18:31 12/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-97e03cad72",
+                          "id": "lnk-708526710d",
                           "name": "BLV Ciu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxi0gr4uqmtt8y41hcjz8rzdrcjafihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8?wsSession=14c06b90294daa39133930cf-178385527708257&wsIPSercert=6775f85a8094c9429cca04f5a0d7f914&wsBindIP=2&wsserid=1168176346313714739"
+                          "url": "https://tfxi3gr4dymttgwanhc3sfa4urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8?wsSession=3deccf1ae3c21780f71b9075-178385587871146&wsIPSercert=91c9f25d3bb277c4fd737f052bdcb6fc&wsBindIP=2&wsserid=1168158473487963106"
                         }
                       ]
                     }
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-804d2ea88e",
+                          "id": "lnk-d83f8ddbc2",
                           "name": "BLV Kent",
                           "type": "hls",
                           "default": true,
