@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "10:41 12/07/2026",
+  "last_updated": "10:51 12/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,21 +46,21 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d169b106b7",
+                          "id": "lnk-96aeb2ab6a",
                           "name": "BLV PIB",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxi0gr4uqmtt8y41hcjsgyzdnctafihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8?wsSession=214abf917bf2df58627cf314-178382767303957&wsIPSercert=46d8ec8c5f2a0644f4472dbf77acbd2a&wsBindIP=2&wsserid=1168283323432748950"
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8"
                         },
                         {
-                          "id": "lnk-dcdb539ea4",
+                          "id": "lnk-1a979316b1",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": false,
-                          "url": "https://tfxi0gr4uqmtt8y41hcjsgyzdnctafihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=527c539ebed211438b0a1787-178382767946867&wsIPSercert=46d8ec8c5f2a0644f4472dbf77acbd2a&wsBindIP=2&wsserid=1168283323302724409"
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8"
                         },
                         {
-                          "id": "lnk-96fe469ea7",
+                          "id": "lnk-8d7af35a13",
                           "name": "BLV Ciu",
                           "type": "hls",
                           "default": false,
