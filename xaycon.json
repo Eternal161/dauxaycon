@@ -1,65 +1,12 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "02:11 13/07/2026",
+  "last_updated": "02:21 13/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Live bóng đá Xây Con",
       "channels": [
-        {
-          "id": "xaycon-a9e882f5b6e1",
-          "name": "⚽ Sarpsborg 08 Ff vs Viking | Eliteserien | 00:15 13/07",
-          "tournament": "Eliteserien",
-          "logo_nha": "https://media.api-sports.io/football/teams/333.png",
-          "logo_khach": "https://media.api-sports.io/football/teams/759.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/333.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-a9e882f5b6e1",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-a9e882f5b6e1",
-                  "name": "Sarpsborg 08 Ff vs Viking",
-                  "streams": [
-                    {
-                      "id": "xaycon-a9e882f5b6e1",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-82cf4fa0af",
-                          "name": "BLV PIB",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "xaycon-79734d7b6843",
           "name": "⚽ Independ. Rivadavia vs Tigre | Copa Argentina | 02:15 13/07",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f28ab5f27e",
+                          "id": "lnk-0e1c231235",
                           "name": "BLV Rồng Đất",
                           "type": "hls",
                           "default": true,
@@ -464,6 +411,51 @@
                   "streams": [
                     {
                       "id": "xaycon-eb748bcdba58",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-4af33e6167cb",
+          "name": "⚽ Ceara vs Athletic Club | Serie B | 06:30 14/07",
+          "tournament": "Serie B",
+          "logo_nha": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt3DlN7Dbv6XMY6-csOHd6GR9q4EgDSzjE3_TxzqLCbA&s=10",
+          "logo_khach": "https://upload.wikimedia.org/wikipedia/en/9/98/Club_Athletic_Bilbao_logo.svg",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt3DlN7Dbv6XMY6-csOHd6GR9q4EgDSzjE3_TxzqLCbA&s=10",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-4af33e6167cb",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-4af33e6167cb",
+                  "name": "Ceara vs Athletic Club",
+                  "streams": [
+                    {
+                      "id": "xaycon-4af33e6167cb",
                       "name": "F",
                       "stream_links": []
                     }
