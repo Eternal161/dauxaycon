@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "17:01 12/07/2026",
+  "last_updated": "17:11 12/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,10 +26,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -44,7 +44,15 @@
                     {
                       "id": "xaycon-e7d56f7f8fba",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-7207ffc089",
+                          "name": "BLV Ciu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -178,6 +186,276 @@
                   "streams": [
                     {
                       "id": "xaycon-6bb0305a70c2",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-a9e882f5b6e1",
+          "name": "⚽ Sarpsborg 08 Ff vs Viking | Eliteserien | 00:15 13/07",
+          "tournament": "Eliteserien",
+          "logo_nha": "https://media.api-sports.io/football/teams/333.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/759.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/333.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-a9e882f5b6e1",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-a9e882f5b6e1",
+                  "name": "Sarpsborg 08 Ff vs Viking",
+                  "streams": [
+                    {
+                      "id": "xaycon-a9e882f5b6e1",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-79734d7b6843",
+          "name": "⚽ Independ. Rivadavia vs Tigre | Copa Argentina | 02:15 13/07",
+          "tournament": "Copa Argentina",
+          "logo_nha": "https://media.api-sports.io/football/teams/473.png",
+          "logo_khach": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Escudo_del_Club_Atl%C3%A9tico_Tigre_-_2019.svg/960px-Escudo_del_Club_Atl%C3%A9tico_Tigre_-_2019.svg.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/473.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-79734d7b6843",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-79734d7b6843",
+                  "name": "Independ. Rivadavia vs Tigre",
+                  "streams": [
+                    {
+                      "id": "xaycon-79734d7b6843",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-62a67d091f40",
+          "name": "⚽ Cf Montreal vs Vancouver Fc | Canadian Championship | 06:30 13/07",
+          "tournament": "Canadian Championship",
+          "logo_nha": "https://media.api-sports.io/football/teams/1614.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/20881.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/1614.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-62a67d091f40",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-62a67d091f40",
+                  "name": "Cf Montreal vs Vancouver Fc",
+                  "streams": [
+                    {
+                      "id": "xaycon-62a67d091f40",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-c9f49b3ca46b",
+          "name": "⚽ Ningbo Professional vs Dongguan United | League One | 18:00 13/07",
+          "tournament": "League One",
+          "logo_nha": "https://media.api-sports.io/football/teams/27556.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/17263.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/27556.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-c9f49b3ca46b",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-c9f49b3ca46b",
+                  "name": "Ningbo Professional vs Dongguan United",
+                  "streams": [
+                    {
+                      "id": "xaycon-c9f49b3ca46b",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-a99b72946285",
+          "name": "⚽ Ugyen Academy vs Transport United | Premier League | 19:00 13/07",
+          "tournament": "Premier League",
+          "logo_nha": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Ugyen_Academy_FC.png/250px-Ugyen_Academy_FC.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/5593.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Ugyen_Academy_FC.png/250px-Ugyen_Academy_FC.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-a99b72946285",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-a99b72946285",
+                  "name": "Ugyen Academy vs Transport United",
+                  "streams": [
+                    {
+                      "id": "xaycon-a99b72946285",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-83cf0c71f219",
+          "name": "⚽ Chelyabinsk vs Ska-Khabarovsk | First League | 21:00 13/07",
+          "tournament": "First League",
+          "logo_nha": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/CoA_of_Chelyabinsk_%282000%29.svg/250px-CoA_of_Chelyabinsk_%282000%29.svg.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/1087.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/CoA_of_Chelyabinsk_%282000%29.svg/250px-CoA_of_Chelyabinsk_%282000%29.svg.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-83cf0c71f219",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-83cf0c71f219",
+                  "name": "Chelyabinsk vs Ska-Khabarovsk",
+                  "streams": [
+                    {
+                      "id": "xaycon-83cf0c71f219",
                       "name": "F",
                       "stream_links": []
                     }
