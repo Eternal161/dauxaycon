@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "18:31 13/07/2026",
+  "last_updated": "18:41 13/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7ed5904c0a",
+                          "id": "lnk-13ab643fb0",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxj3gr4dymttgwanhc3sfa4urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=3deccf1ae3c21780f71b9075-178394228460887&wsIPSercert=cb09d5cb31f199d3911c21e30b9fdaf3&wsBindIP=2&wsserid=1168158473487963106"
+                          "url": "https://tfxj1gr4uqmtt8y41hcjz8rzdeqjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=dd65a829423b7a9bfc19eadf-178394287800816&wsIPSercert=f00bfc750c86d4e40fe1f301ec32f0c7&wsBindIP=2&wsserid=1168214364742294105"
                         }
                       ]
                     }
@@ -79,10 +79,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -97,7 +97,15 @@
                     {
                       "id": "xaycon-a99b72946285",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-346611b2a8",
+                          "name": "BLV Rồng Đất",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tfxj1gr4uqmtt8y41hcjz8rzdeqjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=dd65a829423b7a9bfc19eadf-178394288418437&wsIPSercert=f00bfc750c86d4e40fe1f301ec32f0c7&wsBindIP=2&wsserid=1168214364742294105"
+                        }
+                      ]
                     }
                   ]
                 }
