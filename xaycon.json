@@ -1,118 +1,12 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "08:01 13/07/2026",
+  "last_updated": "08:11 13/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Live bóng đá Xây Con",
       "channels": [
-        {
-          "id": "xaycon-49315cc2ece8",
-          "name": "⚽ Crb vs Goias | Serie B | 05:00 13/07",
-          "tournament": "Serie B",
-          "logo_nha": "https://media.api-sports.io/football/teams/146.png",
-          "logo_khach": "https://media.api-sports.io/football/teams/151.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/146.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-49315cc2ece8",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-49315cc2ece8",
-                  "name": "Crb vs Goias",
-                  "streams": [
-                    {
-                      "id": "xaycon-49315cc2ece8",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f42810c5d4",
-                          "name": "BLV Ciu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "xaycon-62a67d091f40",
-          "name": "⚽ Cf Montreal vs Vancouver Fc | Canadian Championship | 06:30 13/07",
-          "tournament": "Canadian Championship",
-          "logo_nha": "https://media.api-sports.io/football/teams/1614.png",
-          "logo_khach": "https://media.api-sports.io/football/teams/20881.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/1614.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-62a67d091f40",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-62a67d091f40",
-                  "name": "Cf Montreal vs Vancouver Fc",
-                  "streams": [
-                    {
-                      "id": "xaycon-62a67d091f40",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-74ad270456",
-                          "name": "BLV Kent",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "xaycon-c9f49b3ca46b",
           "name": "⚽ Ningbo Professional vs Dongguan United | League One | 18:00 13/07",
@@ -384,59 +278,6 @@
           ]
         },
         {
-          "id": "xaycon-4af33e6167cb",
-          "name": "⚽ Ceara vs Athletic Club | Serie B | 06:30 14/07",
-          "tournament": "Serie B",
-          "logo_nha": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt3DlN7Dbv6XMY6-csOHd6GR9q4EgDSzjE3_TxzqLCbA&s=10",
-          "logo_khach": "https://upload.wikimedia.org/wikipedia/en/9/98/Club_Athletic_Bilbao_logo.svg",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt3DlN7Dbv6XMY6-csOHd6GR9q4EgDSzjE3_TxzqLCbA&s=10",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-4af33e6167cb",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-4af33e6167cb",
-                  "name": "Ceara vs Athletic Club",
-                  "streams": [
-                    {
-                      "id": "xaycon-4af33e6167cb",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aa459c26e0",
-                          "name": "BLV Kent",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "xaycon-20337f01f32f",
           "name": "⚽ Cavalry Fc vs Vancouver Whitecaps | Canadian Championship | 08:30 14/07",
           "tournament": "Canadian Championship",
@@ -472,6 +313,141 @@
                   "streams": [
                     {
                       "id": "xaycon-20337f01f32f",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-637bea527243",
+          "name": "⚽ Dynamo Moscow vs Cska Moscow | Giao Hữu | 15:00 14/07",
+          "tournament": "Giao Hữu",
+          "logo_nha": "https://upload.wikimedia.org/wikipedia/en/e/e7/Dynamo_Moscow_logo.svg",
+          "logo_khach": "https://upload.wikimedia.org/wikipedia/en/thumb/2/26/PFK_CSKA_Logo.svg/960px-PFK_CSKA_Logo.svg.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload.wikimedia.org/wikipedia/en/e/e7/Dynamo_Moscow_logo.svg",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-637bea527243",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-637bea527243",
+                  "name": "Dynamo Moscow vs Cska Moscow",
+                  "streams": [
+                    {
+                      "id": "xaycon-637bea527243",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-a2f2b49bab53",
+          "name": "⚽ Apia Leichhardt Tigers vs Peninsula Power | Australia Cup | 16:30 14/07",
+          "tournament": "Australia Cup",
+          "logo_nha": "https://media.api-sports.io/football/teams/3764.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/10221.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/3764.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-a2f2b49bab53",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-a2f2b49bab53",
+                  "name": "Apia Leichhardt Tigers vs Peninsula Power",
+                  "streams": [
+                    {
+                      "id": "xaycon-a2f2b49bab53",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-ab31e2fa005b",
+          "name": "⚽ Bhutan U19 vs Drukpa | Premier League | 19:00 14/07",
+          "tournament": "Premier League",
+          "logo_nha": "https://media.api-sports.io/football/teams/5433.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/27725.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/5433.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-ab31e2fa005b",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-ab31e2fa005b",
+                  "name": "Bhutan U19 vs Drukpa",
+                  "streams": [
+                    {
+                      "id": "xaycon-ab31e2fa005b",
                       "name": "F",
                       "stream_links": []
                     }
