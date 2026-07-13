@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "20:21 13/07/2026",
+  "last_updated": "20:41 13/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,10 +26,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -44,7 +44,15 @@
                     {
                       "id": "xaycon-83cf0c71f219",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a1a0e958ee",
+                          "name": "BLV PIB",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tfxj1gr4dymttgwanhc3sfaauccbpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8?wsSession=f5f570a3bb9d14f558978d9a-178395009433843&wsIPSercert=8ada6d73ca018b32536a3090a0ea2ab1&wsBindIP=2&wsserid=1168282037991221552"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -71,10 +79,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -89,7 +97,15 @@
                     {
                       "id": "xaycon-0c1feb981e48",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-93af1301f2",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tfxj1gr4dymttgwanhc3sfaauccbpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=0fecc200ad94635c875c47ce-178395010031155&wsIPSercert=8ada6d73ca018b32536a3090a0ea2ab1&wsBindIP=2&wsserid=1168282035663924028"
+                        }
+                      ]
                     }
                   ]
                 }
