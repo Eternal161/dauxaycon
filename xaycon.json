@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "21:02 13/07/2026",
+  "last_updated": "21:19 13/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-60635e0dca",
+                          "id": "lnk-7ea9e1ef51",
                           "name": "BLV PIB",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxj1gr4uqmtt8y41hcjsgyzdkcjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8?wsSession=214abf917bf2df58627cf314-178395133952187&wsIPSercert=75453edd465a247d226e96d56030a54a&wsBindIP=2&wsserid=1168283323432748950"
+                          "url": "https://tfxj0gr3uomttgr31hcj18yzdncbifihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_bipcon/playlist.m3u8?wsSession=246725a627d5c8869b6a7484-178395235234470&wsIPSercert=1ff84caaa3c7ea543cb0f67ff6684dee&wsBindIP=2&wsserid=1168243343867022521"
                         }
                       ]
                     }
@@ -99,11 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f63840b8ee",
+                          "id": "lnk-adf9f99e51",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxj1gr4uqmtt8y41hcjsgyzdkcjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=527c539ebed211438b0a1787-178395134600767&wsIPSercert=75453edd465a247d226e96d56030a54a&wsBindIP=2&wsserid=1168283323302724409"
+                          "url": "https://tfxj0gr3uomttgr31hcj18yzdncbifihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=246725a627d5c8869b6a7484-178395235862768&wsIPSercert=1ff84caaa3c7ea543cb0f67ff6684dee&wsBindIP=2&wsserid=1168243343867022521"
                         }
                       ]
                     }
