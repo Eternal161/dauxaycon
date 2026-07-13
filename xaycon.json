@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "19:01 13/07/2026",
+  "last_updated": "19:11 13/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,64 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-756e188169",
+                          "id": "lnk-18eb07225e",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxj1gr4uqmtt8y41hcjwgwzdocjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=616f653cb9a9bacc0da12063-178394410739158&wsIPSercert=7c77a9d2a8975cfb9b1f6036096c84f1&wsBindIP=2&wsserid=1168176581102008440"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "xaycon-a99b72946285",
-          "name": "⚽ Ugyen Academy vs Transport United | Premier League | 19:00 13/07",
-          "tournament": "Premier League",
-          "logo_nha": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Ugyen_Academy_FC.png/250px-Ugyen_Academy_FC.png",
-          "logo_khach": "https://media.api-sports.io/football/teams/5593.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Ugyen_Academy_FC.png/250px-Ugyen_Academy_FC.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-a99b72946285",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-a99b72946285",
-                  "name": "Ugyen Academy vs Transport United",
-                  "streams": [
-                    {
-                      "id": "xaycon-a99b72946285",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b53473468a",
-                          "name": "BLV Rồng Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tfxj1gr4uqmtt8y41hcjwgwzdocjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=fe98348b1e299f1542a9c7d2-178394411358734&wsIPSercert=7c77a9d2a8975cfb9b1f6036096c84f1&wsBindIP=2&wsserid=1168176581104105640"
+                          "url": "https://tfxj1gr4dymttgwanhc3sfaauccbpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=0fecc200ad94635c875c47ce-178394468888264&wsIPSercert=fa72c6effd430ef0811ea6bfd9f14ec6&wsBindIP=2&wsserid=1168282035663924028"
                         }
                       ]
                     }
@@ -464,6 +411,51 @@
                   "streams": [
                     {
                       "id": "xaycon-ab31e2fa005b",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-a610f1ecb6d6",
+          "name": "⚽ Saburtalo vs Flora Tallinn | UEFA Champions League | 23:00 14/07",
+          "tournament": "UEFA Champions League",
+          "logo_nha": "https://media.api-sports.io/football/teams/3502.png",
+          "logo_khach": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/FC_Flora_logo.svg/960px-FC_Flora_logo.svg.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/3502.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-a610f1ecb6d6",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-a610f1ecb6d6",
+                  "name": "Saburtalo vs Flora Tallinn",
+                  "streams": [
+                    {
+                      "id": "xaycon-a610f1ecb6d6",
                       "name": "F",
                       "stream_links": []
                     }
