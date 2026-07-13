@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "07:51 13/07/2026",
+  "last_updated": "08:01 13/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-42e05938f7",
+                          "id": "lnk-f42810c5d4",
                           "name": "BLV Ciu",
                           "type": "hls",
                           "default": true,
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0693691cb4",
+                          "id": "lnk-74ad270456",
                           "name": "BLV Kent",
                           "type": "hls",
                           "default": true,
@@ -402,10 +402,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -420,7 +420,15 @@
                     {
                       "id": "xaycon-4af33e6167cb",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-aa459c26e0",
+                          "name": "BLV Kent",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8"
+                        }
+                      ]
                     }
                   ]
                 }
