@@ -1,65 +1,12 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "20:01 13/07/2026",
+  "last_updated": "20:11 13/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Live bóng đá Xây Con",
       "channels": [
-        {
-          "id": "xaycon-c9f49b3ca46b",
-          "name": "⚽ Ningbo Professional vs Dongguan United | League One | 18:00 13/07",
-          "tournament": "League One",
-          "logo_nha": "https://media.api-sports.io/football/teams/27556.png",
-          "logo_khach": "https://media.api-sports.io/football/teams/17263.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/27556.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-c9f49b3ca46b",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-c9f49b3ca46b",
-                  "name": "Ningbo Professional vs Dongguan United",
-                  "streams": [
-                    {
-                      "id": "xaycon-c9f49b3ca46b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-edadb055e3",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "xaycon-83cf0c71f219",
           "name": "⚽ Chelyabinsk vs Ska-Khabarovsk | First League | 21:00 13/07",
@@ -456,6 +403,51 @@
                   "streams": [
                     {
                       "id": "xaycon-a610f1ecb6d6",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-78055bf3055d",
+          "name": "⚽ Riga vs Ararat-Armenia | UEFA Champions League | 00:00 15/07",
+          "tournament": "UEFA Champions League",
+          "logo_nha": "https://media.api-sports.io/football/teams/10124.png",
+          "logo_khach": "https://upload.wikimedia.org/wikipedia/commons/7/73/FC_Ararat-Armenia_logo.svg",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/10124.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-78055bf3055d",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-78055bf3055d",
+                  "name": "Riga vs Ararat-Armenia",
+                  "streams": [
+                    {
+                      "id": "xaycon-78055bf3055d",
                       "name": "F",
                       "stream_links": []
                     }
