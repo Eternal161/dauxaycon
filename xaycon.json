@@ -1,12 +1,463 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "14:01 13/07/2026",
+  "last_updated": "14:11 13/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Live bóng đá Xây Con",
-      "channels": []
+      "channels": [
+        {
+          "id": "xaycon-c9f49b3ca46b",
+          "name": "⚽ Ningbo Professional vs Dongguan United | League One | 18:00 13/07",
+          "tournament": "League One",
+          "logo_nha": "https://media.api-sports.io/football/teams/27556.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/17263.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/27556.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-c9f49b3ca46b",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-c9f49b3ca46b",
+                  "name": "Ningbo Professional vs Dongguan United",
+                  "streams": [
+                    {
+                      "id": "xaycon-c9f49b3ca46b",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-a99b72946285",
+          "name": "⚽ Ugyen Academy vs Transport United | Premier League | 19:00 13/07",
+          "tournament": "Premier League",
+          "logo_nha": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Ugyen_Academy_FC.png/250px-Ugyen_Academy_FC.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/5593.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Ugyen_Academy_FC.png/250px-Ugyen_Academy_FC.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-a99b72946285",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-a99b72946285",
+                  "name": "Ugyen Academy vs Transport United",
+                  "streams": [
+                    {
+                      "id": "xaycon-a99b72946285",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-83cf0c71f219",
+          "name": "⚽ Chelyabinsk vs Ska-Khabarovsk | First League | 21:00 13/07",
+          "tournament": "First League",
+          "logo_nha": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/CoA_of_Chelyabinsk_%282000%29.svg/250px-CoA_of_Chelyabinsk_%282000%29.svg.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/1087.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/CoA_of_Chelyabinsk_%282000%29.svg/250px-CoA_of_Chelyabinsk_%282000%29.svg.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-83cf0c71f219",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-83cf0c71f219",
+                  "name": "Chelyabinsk vs Ska-Khabarovsk",
+                  "streams": [
+                    {
+                      "id": "xaycon-83cf0c71f219",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-0c1feb981e48",
+          "name": "⚽ Ural vs Torpedo Moskva | First League | 21:00 13/07",
+          "tournament": "First League",
+          "logo_nha": "https://media.api-sports.io/football/teams/1084.png",
+          "logo_khach": "https://upload.wikimedia.org/wikipedia/commons/1/14/FC_Torpedo_Moscow_Logotype_2023.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/1084.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-0c1feb981e48",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-0c1feb981e48",
+                  "name": "Ural vs Torpedo Moskva",
+                  "streams": [
+                    {
+                      "id": "xaycon-0c1feb981e48",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-8b8d82e75ef5",
+          "name": "⚽ Arsenal Tula vs Tekstilshchik | First League | 23:30 13/07",
+          "tournament": "First League",
+          "logo_nha": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/FC_Arsenal_Tula_logo.svg/1280px-FC_Arsenal_Tula_logo.svg.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/3984.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/FC_Arsenal_Tula_logo.svg/1280px-FC_Arsenal_Tula_logo.svg.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-8b8d82e75ef5",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-8b8d82e75ef5",
+                  "name": "Arsenal Tula vs Tekstilshchik",
+                  "streams": [
+                    {
+                      "id": "xaycon-8b8d82e75ef5",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-eb748bcdba58",
+          "name": "⚽ Djurgardens If vs Halmstad | Allsvenskan | 00:00 14/07",
+          "tournament": "Allsvenskan",
+          "logo_nha": "https://media.api-sports.io/football/teams/364.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/766.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/364.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-eb748bcdba58",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-eb748bcdba58",
+                  "name": "Djurgardens If vs Halmstad",
+                  "streams": [
+                    {
+                      "id": "xaycon-eb748bcdba58",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-20337f01f32f",
+          "name": "⚽ Cavalry Fc vs Vancouver Whitecaps | Canadian Championship | 08:30 14/07",
+          "tournament": "Canadian Championship",
+          "logo_nha": "https://media.api-sports.io/football/teams/2619.png",
+          "logo_khach": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Vancouver_Whitecaps_logo.svg",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/2619.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-20337f01f32f",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-20337f01f32f",
+                  "name": "Cavalry Fc vs Vancouver Whitecaps",
+                  "streams": [
+                    {
+                      "id": "xaycon-20337f01f32f",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-637bea527243",
+          "name": "⚽ Dynamo Moscow vs Cska Moscow | Giao Hữu | 15:00 14/07",
+          "tournament": "Giao Hữu",
+          "logo_nha": "https://upload.wikimedia.org/wikipedia/en/e/e7/Dynamo_Moscow_logo.svg",
+          "logo_khach": "https://upload.wikimedia.org/wikipedia/en/thumb/2/26/PFK_CSKA_Logo.svg/960px-PFK_CSKA_Logo.svg.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload.wikimedia.org/wikipedia/en/e/e7/Dynamo_Moscow_logo.svg",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-637bea527243",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-637bea527243",
+                  "name": "Dynamo Moscow vs Cska Moscow",
+                  "streams": [
+                    {
+                      "id": "xaycon-637bea527243",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-a2f2b49bab53",
+          "name": "⚽ Apia Leichhardt Tigers vs Peninsula Power | Australia Cup | 16:30 14/07",
+          "tournament": "Australia Cup",
+          "logo_nha": "https://media.api-sports.io/football/teams/3764.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/10221.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/3764.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-a2f2b49bab53",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-a2f2b49bab53",
+                  "name": "Apia Leichhardt Tigers vs Peninsula Power",
+                  "streams": [
+                    {
+                      "id": "xaycon-a2f2b49bab53",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-ab31e2fa005b",
+          "name": "⚽ Bhutan U19 vs Drukpa | Premier League | 19:00 14/07",
+          "tournament": "Premier League",
+          "logo_nha": "https://media.api-sports.io/football/teams/5433.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/27725.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/5433.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-ab31e2fa005b",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-ab31e2fa005b",
+                  "name": "Bhutan U19 vs Drukpa",
+                  "streams": [
+                    {
+                      "id": "xaycon-ab31e2fa005b",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
