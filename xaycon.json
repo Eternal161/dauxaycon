@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "14:21 14/07/2026",
+  "last_updated": "14:31 14/07/2026",
   "groups": [
     {
       "id": "live",
@@ -143,51 +143,6 @@
           ]
         },
         {
-          "id": "xaycon-a610f1ecb6d6",
-          "name": "⚽ Saburtalo vs Flora Tallinn | UEFA Champions League | 23:00 14/07",
-          "tournament": "UEFA Champions League",
-          "logo_nha": "https://media.api-sports.io/football/teams/3502.png",
-          "logo_khach": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/FC_Flora_logo.svg/960px-FC_Flora_logo.svg.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/3502.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-a610f1ecb6d6",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-a610f1ecb6d6",
-                  "name": "Saburtalo vs Flora Tallinn",
-                  "streams": [
-                    {
-                      "id": "xaycon-a610f1ecb6d6",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "xaycon-78055bf3055d",
           "name": "⚽ Riga vs Ararat-Armenia | UEFA Champions League | 00:00 15/07",
           "tournament": "UEFA Champions League",
@@ -268,51 +223,6 @@
                   "streams": [
                     {
                       "id": "xaycon-14e1ea45a0eb",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "xaycon-08d3450ffc19",
-          "name": "⚽ Marlin Coast vs Brunswick Juventus Fc | Australia Cup | 16:30 15/07",
-          "tournament": "Australia Cup",
-          "logo_nha": "https://media.api-sports.io/football/teams/27884.png",
-          "logo_khach": "https://media.api-sports.io/football/teams/27510.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/27884.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-08d3450ffc19",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-08d3450ffc19",
-                  "name": "Marlin Coast vs Brunswick Juventus Fc",
-                  "streams": [
-                    {
-                      "id": "xaycon-08d3450ffc19",
                       "name": "F",
                       "stream_links": []
                     }
