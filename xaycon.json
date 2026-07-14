@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "19:11 14/07/2026",
+  "last_updated": "19:21 14/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,64 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-67749e16a3",
+                          "id": "lnk-9d2b54b35c",
                           "name": "BLV Ciu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxk3gr4dymttgwanhc3sfa4urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8?wsSession=3deccf1ae3c21780f71b9075-178403107722990&wsIPSercert=08e1b7c87055dfcae7b137176f1ab96c&wsBindIP=2&wsserid=1168158473487963106"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "xaycon-b0e5ee306982",
-          "name": "⚽ Ab Copenhagen vs Helsingborg | Friendlies Clubs | 19:00 14/07",
-          "tournament": "Friendlies Clubs",
-          "logo_nha": "https://media.api-sports.io/football/teams/2060.png",
-          "logo_khach": "https://media.api-sports.io/football/teams/811.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/2060.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-b0e5ee306982",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-b0e5ee306982",
-                  "name": "Ab Copenhagen vs Helsingborg",
-                  "streams": [
-                    {
-                      "id": "xaycon-b0e5ee306982",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-341505cc14",
-                          "name": "BLV Rồng Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tfxk3gr4dymttgwanhc3sfa4urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=3deccf1ae3c21780f71b9075-178403108363538&wsIPSercert=08e1b7c87055dfcae7b137176f1ab96c&wsBindIP=2&wsserid=1168158473487963106"
+                          "url": "https://tfxk0gr4uqmtt8y41hcjsgyzdnctufihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8?wsSession=f75f6470af28a14acee233bd-178403167459645&wsIPSercert=0f36c405458b5c4fd361665ef86cc4de&wsBindIP=2&wsserid=1168283323406534424"
                         }
                       ]
                     }
@@ -464,6 +411,51 @@
                   "streams": [
                     {
                       "id": "xaycon-b525282833eb",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-6db152e7147f",
+          "name": "⚽ Khan Tengri vs Yelimay Semey 2 | 1. Division | 21:00 16/07",
+          "tournament": "1. Division",
+          "logo_nha": "https://media.api-sports.io/football/teams/18805.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/27635.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/18805.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-6db152e7147f",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-6db152e7147f",
+                  "name": "Khan Tengri vs Yelimay Semey 2",
+                  "streams": [
+                    {
+                      "id": "xaycon-6db152e7147f",
                       "name": "F",
                       "stream_links": []
                     }
