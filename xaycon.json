@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "04:01 15/07/2026",
+  "last_updated": "04:11 15/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,18 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d20c7082b3",
+                          "id": "lnk-e3378048d5",
                           "name": "BLV Rồng Đất",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxk3gchnhcj3gozdrc31fa5urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=cb94901cf6073909da0008bd-178406291716341&wsIPSercert=b220a964bff0fe1fa70434e775a61bd6&wsBindIP=2&wsserid=1168240291957886905"
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8"
                         },
                         {
-                          "id": "lnk-fea9d4c54e",
+                          "id": "lnk-9520bc3462",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": false,
-                          "url": "https://tfxk3gchnhcj3gozdrc31fa5urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=8ecb23bc8d2b8ea736539652-178406292344255&wsIPSercert=b220a964bff0fe1fa70434e775a61bd6&wsBindIP=2&wsserid=1168240291948449491"
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8"
                         }
                       ]
                     }
