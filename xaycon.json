@@ -1,65 +1,12 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "13:41 14/07/2026",
+  "last_updated": "13:51 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Live bóng đá Xây Con",
       "channels": [
-        {
-          "id": "xaycon-20337f01f32f",
-          "name": "⚽ Cavalry Fc vs Vancouver Whitecaps | Canadian Championship | 08:30 14/07",
-          "tournament": "Canadian Championship",
-          "logo_nha": "https://media.api-sports.io/football/teams/2619.png",
-          "logo_khach": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Vancouver_Whitecaps_logo.svg",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/2619.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-20337f01f32f",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-20337f01f32f",
-                  "name": "Cavalry Fc vs Vancouver Whitecaps",
-                  "streams": [
-                    {
-                      "id": "xaycon-20337f01f32f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9f0baeba49",
-                          "name": "BLV Kent",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_phubeo/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "xaycon-637bea527243",
           "name": "⚽ Dynamo Moscow vs Cska Moscow | Giao Hữu | 15:00 14/07",
@@ -456,6 +403,51 @@
                   "streams": [
                     {
                       "id": "xaycon-7d60fbf8ff0f",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-3b2afc493020",
+          "name": "⚽ Jippo vs Mp | Ykkösliiga | 22:30 15/07",
+          "tournament": "Ykkösliiga",
+          "logo_nha": "https://media.api-sports.io/football/teams/9172.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/9175.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/9172.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-3b2afc493020",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-3b2afc493020",
+                  "name": "Jippo vs Mp",
+                  "streams": [
+                    {
+                      "id": "xaycon-3b2afc493020",
                       "name": "F",
                       "stream_links": []
                     }
