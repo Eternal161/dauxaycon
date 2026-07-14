@@ -1,16 +1,16 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "20:51 14/07/2026",
+  "last_updated": "21:01 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Live bóng đá Xây Con",
       "channels": [
         {
-          "id": "xaycon-e99c3b0b3a11",
-          "name": "⚽ Irtysh vs Fc Astana | Premier League | 21:00 14/07",
-          "tournament": "Premier League",
+          "id": "xaycon-1c0f4f8f59d9",
+          "name": "⚽ Irtysh vs Fc Astana | Friendlies Women | 21:00 14/07",
+          "tournament": "Friendlies Women",
           "logo_nha": "https://media.api-sports.io/football/teams/4565.png",
           "logo_khach": "https://media.api-sports.io/football/teams/562.png",
           "type": "single",
@@ -34,23 +34,23 @@
           ],
           "sources": [
             {
-              "id": "xaycon-e99c3b0b3a11",
+              "id": "xaycon-1c0f4f8f59d9",
               "name": "Xây Con TV",
               "contents": [
                 {
-                  "id": "xaycon-e99c3b0b3a11",
+                  "id": "xaycon-1c0f4f8f59d9",
                   "name": "Irtysh vs Fc Astana",
                   "streams": [
                     {
-                      "id": "xaycon-e99c3b0b3a11",
+                      "id": "xaycon-1c0f4f8f59d9",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-26c1a894ad",
+                          "id": "lnk-ba706a414e",
                           "name": "BLV Rồng Đất",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxk0gr3uomttgr31hcj18yzdnct1fihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=cc9469389394c0132e5f987b-178403708811496&wsIPSercert=eecbdb4613bc1c96226f7bfb640cc0b8&wsBindIP=2&wsserid=1168243256664118498"
+                          "url": "https://tfxk0gr4uqmtt8y41hcjsgyzdnpbufihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=5b53f9dab67ae6e0f12f2a80-178403768310626&wsIPSercert=ea0ff74d198d0f71dd46bbdb48732447&wsBindIP=2&wsserid=1168231785639038521"
                         }
                       ]
                     }
