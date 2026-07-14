@@ -1,12 +1,479 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "19:01 14/07/2026",
+  "last_updated": "19:11 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Live bóng đá Xây Con",
-      "channels": []
+      "channels": [
+        {
+          "id": "xaycon-4930b156595d",
+          "name": "⚽ Zhejiang Professional vs Qingdao Hainiu | China Super League | 18:35 14/07",
+          "tournament": "China Super League",
+          "logo_nha": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/Zhejiang_Professional_F.C.svg/1200px-Zhejiang_Professional_F.C.svg.png",
+          "logo_khach": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Qingdao_Hainiu_F.C.svg/1085px-Qingdao_Hainiu_F.C.svg.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/Zhejiang_Professional_F.C.svg/1200px-Zhejiang_Professional_F.C.svg.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-4930b156595d",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-4930b156595d",
+                  "name": "Zhejiang Professional vs Qingdao Hainiu",
+                  "streams": [
+                    {
+                      "id": "xaycon-4930b156595d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-67749e16a3",
+                          "name": "BLV Ciu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tfxk3gr4dymttgwanhc3sfa4urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8?wsSession=3deccf1ae3c21780f71b9075-178403107722990&wsIPSercert=08e1b7c87055dfcae7b137176f1ab96c&wsBindIP=2&wsserid=1168158473487963106"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-b0e5ee306982",
+          "name": "⚽ Ab Copenhagen vs Helsingborg | Friendlies Clubs | 19:00 14/07",
+          "tournament": "Friendlies Clubs",
+          "logo_nha": "https://media.api-sports.io/football/teams/2060.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/811.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/2060.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-b0e5ee306982",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-b0e5ee306982",
+                  "name": "Ab Copenhagen vs Helsingborg",
+                  "streams": [
+                    {
+                      "id": "xaycon-b0e5ee306982",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-341505cc14",
+                          "name": "BLV Rồng Đất",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tfxk3gr4dymttgwanhc3sfa4urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=3deccf1ae3c21780f71b9075-178403108363538&wsIPSercert=08e1b7c87055dfcae7b137176f1ab96c&wsBindIP=2&wsserid=1168158473487963106"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-78055bf3055d",
+          "name": "⚽ Riga vs Ararat-Armenia | UEFA Champions League | 00:00 15/07",
+          "tournament": "UEFA Champions League",
+          "logo_nha": "https://media.api-sports.io/football/teams/10124.png",
+          "logo_khach": "https://upload.wikimedia.org/wikipedia/commons/7/73/FC_Ararat-Armenia_logo.svg",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/10124.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-78055bf3055d",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-78055bf3055d",
+                  "name": "Riga vs Ararat-Armenia",
+                  "streams": [
+                    {
+                      "id": "xaycon-78055bf3055d",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-14e1ea45a0eb",
+          "name": "⚽ France vs Spain | World Cup | 02:00 15/07",
+          "tournament": "World Cup",
+          "logo_nha": "https://media.api-sports.io/football/teams/2.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/9.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/2.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-14e1ea45a0eb",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-14e1ea45a0eb",
+                  "name": "France vs Spain",
+                  "streams": [
+                    {
+                      "id": "xaycon-14e1ea45a0eb",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-8803b42a02fc",
+          "name": "⚽ Suwon City Fc vs Pyeongchang United | FA Cup | 17:00 15/07",
+          "tournament": "FA Cup",
+          "logo_nha": "https://media.api-sports.io/football/teams/2756.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/18656.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/2756.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-8803b42a02fc",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-8803b42a02fc",
+                  "name": "Suwon City Fc vs Pyeongchang United",
+                  "streams": [
+                    {
+                      "id": "xaycon-8803b42a02fc",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-7d60fbf8ff0f",
+          "name": "⚽ Ordabasy vs Altay | Cup | 22:00 15/07",
+          "tournament": "Cup",
+          "logo_nha": "https://media.api-sports.io/football/teams/692.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/4544.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/692.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-7d60fbf8ff0f",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-7d60fbf8ff0f",
+                  "name": "Ordabasy vs Altay",
+                  "streams": [
+                    {
+                      "id": "xaycon-7d60fbf8ff0f",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-3b2afc493020",
+          "name": "⚽ Jippo vs Mp | Ykkösliiga | 22:30 15/07",
+          "tournament": "Ykkösliiga",
+          "logo_nha": "https://media.api-sports.io/football/teams/9172.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/9175.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/9172.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-3b2afc493020",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-3b2afc493020",
+                  "name": "Jippo vs Mp",
+                  "streams": [
+                    {
+                      "id": "xaycon-3b2afc493020",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-3a00d8972ae7",
+          "name": "⚽ England vs Argentina | World Cup | 02:00 16/07",
+          "tournament": "World Cup",
+          "logo_nha": "https://media.api-sports.io/football/teams/10.png",
+          "logo_khach": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/250px-Flag_of_Argentina.svg.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/10.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-3a00d8972ae7",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-3a00d8972ae7",
+                  "name": "England vs Argentina",
+                  "streams": [
+                    {
+                      "id": "xaycon-3a00d8972ae7",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-99be091aca65",
+          "name": "⚽ Indonesia vs Cambodia | ASEAN Championship | 15:45 16/07",
+          "tournament": "ASEAN Championship",
+          "logo_nha": "https://i.imgur.com/P4sNAMH.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/1543.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://i.imgur.com/P4sNAMH.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-99be091aca65",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-99be091aca65",
+                  "name": "Indonesia vs Cambodia",
+                  "streams": [
+                    {
+                      "id": "xaycon-99be091aca65",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-b525282833eb",
+          "name": "⚽ Thimphu vs Paro | Premier League | 19:00 16/07",
+          "tournament": "Premier League",
+          "logo_nha": "https://media.api-sports.io/football/teams/5591.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/9426.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/5591.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-b525282833eb",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-b525282833eb",
+                  "name": "Thimphu vs Paro",
+                  "streams": [
+                    {
+                      "id": "xaycon-b525282833eb",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
