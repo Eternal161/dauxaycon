@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "03:31 15/07/2026",
+  "last_updated": "03:41 15/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,18 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5012de43aa",
+                          "id": "lnk-f6ea5e0210",
                           "name": "BLV Rồng Đất",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxk0gr4uqmtt8y41hcjzgazdnc3ofihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=90dc6457e54a303646757f4a-178406111367896&wsIPSercert=149774ee04e3b565054fd8b612e9d345&wsBindIP=2&wsserid=1168041062946239395"
+                          "url": "https://tfxk1gr4uqmtt8y41hcjwgwzdocjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=fe98348b1e299f1542a9c7d2-178406167683960&wsIPSercert=17863c0536045ecb9da2d373a49d13af&wsBindIP=2&wsserid=1168176581104105640"
                         },
                         {
-                          "id": "lnk-80197632f7",
+                          "id": "lnk-c02bb08e22",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": false,
-                          "url": "https://tfxk0gr4uqmtt8y41hcjzgazdnc3ofihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=dd65a829423b7a9bfc19eadf-178406111999089&wsIPSercert=149774ee04e3b565054fd8b612e9d345&wsBindIP=2&wsserid=1168214364742294105"
+                          "url": "https://tfxk1gr4uqmtt8y41hcjwgwzdocjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=616f653cb9a9bacc0da12063-178406168306272&wsIPSercert=17863c0536045ecb9da2d373a49d13af&wsBindIP=2&wsserid=1168176581102008440"
                         }
                       ]
                     }
