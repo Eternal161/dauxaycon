@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "09:31 14/07/2026",
+  "last_updated": "09:41 14/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d243a3b4fa",
+                          "id": "lnk-d7a57a8589",
                           "name": "BLV Kent",
                           "type": "hls",
                           "default": true,
