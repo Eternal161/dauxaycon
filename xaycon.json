@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "23:41 14/07/2026",
+  "last_updated": "23:51 14/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2432313013",
+                          "id": "lnk-5f5eb940bd",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxk3gr4dymttgwanhc3sfa4urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=3deccf1ae3c21780f71b9075-178404729896572&wsIPSercert=0ae515b02f50271a7a47227f9cbebfa9&wsBindIP=2&wsserid=1168158473487963106"
+                          "url": "https://tfxk3gr4dymttgwanhc3sfa4urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=3deccf1ae3c21780f71b9075-178404788487323&wsIPSercert=fc3ab7de5ea21c04407f60c78f8efb77&wsBindIP=2&wsserid=1168158473487963106"
                         }
                       ]
                     }
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-571eba35d2",
+                          "id": "lnk-58af98a57d",
                           "name": "BLV Rồng Đất",
                           "type": "hls",
                           "default": true,
@@ -152,11 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f7ba8bd100",
+                          "id": "lnk-ee9ab4fb24",
                           "name": "BLV Ciu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8"
+                          "url": "https://tfxk3gr4dymttgwanhc3sfa4urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8?wsSession=3deccf1ae3c21780f71b9075-178404789787419&wsIPSercert=fc3ab7de5ea21c04407f60c78f8efb77&wsBindIP=2&wsserid=1168158473487963106"
                         }
                       ]
                     }
