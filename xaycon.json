@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "20:11 14/07/2026",
+  "last_updated": "20:21 14/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e6b8a4bbe7",
+                          "id": "lnk-ff4caed8bd",
                           "name": "BLV Ciu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxk0gr4uqmtt8y41hcjsgyzdnctafihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8?wsSession=f75f6470af28a14acee233bd-178403467372753&wsIPSercert=388fb8c844b747c3ea27772f63d4c2f5&wsBindIP=2&wsserid=1168283323406534424"
+                          "url": "https://tfxk3gr4dymttgwanhc3sfa4urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8?wsSession=3deccf1ae3c21780f71b9075-178403528215904&wsIPSercert=bf38adfbe11e82e8640e9551057bb89b&wsBindIP=2&wsserid=1168158473487963106"
                         }
                       ]
                     }
