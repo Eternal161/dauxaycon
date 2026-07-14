@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "22:21 14/07/2026",
+  "last_updated": "22:31 14/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-120085d8dc",
+                          "id": "lnk-2efca44c85",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxk0gr3uomttgr31hcj18yzdncbifihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=246725a627d5c8869b6a7484-178404248804545&wsIPSercert=89ade8481df507cc8109cb513b9e530a&wsBindIP=2&wsserid=1168243343867022521"
+                          "url": "https://tfxk1gr4uqmtt8y41hcjwgwzdocjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=616f653cb9a9bacc0da12063-178404308375330&wsIPSercert=5e464e362b848d6935580a0ff38f4911&wsBindIP=2&wsserid=1168176581102008440"
                         }
                       ]
                     }
@@ -99,11 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6182222b34",
+                          "id": "lnk-8063abd74e",
                           "name": "BLV Rồng Đất",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxk0gr3uomttgr31hcj18yzdncbifihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=cc9469389394c0132e5f987b-178404249427197&wsIPSercert=89ade8481df507cc8109cb513b9e530a&wsBindIP=2&wsserid=1168243256664118498"
+                          "url": "https://tfxk1gr4uqmtt8y41hcjwgwzdocjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=fe98348b1e299f1542a9c7d2-178404308990356&wsIPSercert=5e464e362b848d6935580a0ff38f4911&wsBindIP=2&wsserid=1168176581104105640"
                         }
                       ]
                     }
