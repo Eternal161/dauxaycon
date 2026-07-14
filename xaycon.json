@@ -1,65 +1,12 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "01:51 15/07/2026",
+  "last_updated": "02:01 15/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Live bóng đá Xây Con",
       "channels": [
-        {
-          "id": "xaycon-78055bf3055d",
-          "name": "⚽ Riga vs Ararat-Armenia | UEFA Champions League | 00:00 15/07",
-          "tournament": "UEFA Champions League",
-          "logo_nha": "https://media.api-sports.io/football/teams/10124.png",
-          "logo_khach": "https://upload.wikimedia.org/wikipedia/commons/7/73/FC_Ararat-Armenia_logo.svg",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/10124.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-78055bf3055d",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-78055bf3055d",
-                  "name": "Riga vs Ararat-Armenia",
-                  "streams": [
-                    {
-                      "id": "xaycon-78055bf3055d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5166757ed7",
-                          "name": "BLV Ciu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tfxk0gr4uqmtt8y41hcjsgyzdnpbufihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8?wsSession=ce1e98a8c25e146685d78e62-178405508627350&wsIPSercert=6a094cd9b103634a292a3dd30de62623&wsBindIP=2&wsserid=1168231589596984705"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "xaycon-14e1ea45a0eb",
           "name": "⚽ France vs Spain | World Cup | 02:00 15/07",
@@ -99,18 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fe1e9a444e",
+                          "id": "lnk-00143935cd",
                           "name": "BLV Rồng Đất",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxk0gr4uqmtt8y41hcjsgyzdnpbufihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=5b53f9dab67ae6e0f12f2a80-178405509265117&wsIPSercert=6a094cd9b103634a292a3dd30de62623&wsBindIP=2&wsserid=1168231785639038521"
+                          "url": "https://tfxk0gr4uqmtt8y41hcjsgyzdnpbufihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=5b53f9dab67ae6e0f12f2a80-178405568526284&wsIPSercert=2707e581c84265773125e2bbefc5c076&wsBindIP=2&wsserid=1168231785639038521"
                         },
                         {
-                          "id": "lnk-faea0fb165",
+                          "id": "lnk-e8a75687ae",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": false,
-                          "url": "https://tfxk0gr4uqmtt8y41hcjsgyzdnpbufihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=5b53f9dab67ae6e0f12f2a80-178405509941618&wsIPSercert=6a094cd9b103634a292a3dd30de62623&wsBindIP=2&wsserid=1168231785641135723"
+                          "url": "https://tfxk0gr4uqmtt8y41hcjsgyzdnpbufihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=5b53f9dab67ae6e0f12f2a80-178405569163931&wsIPSercert=2707e581c84265773125e2bbefc5c076&wsBindIP=2&wsserid=1168231785641135723"
                         }
                       ]
                     }
