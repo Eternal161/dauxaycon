@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "03:01 15/07/2026",
+  "last_updated": "03:11 15/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,18 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-285283b04c",
+                          "id": "lnk-ffe7b79ead",
                           "name": "BLV Rồng Đất",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxk1gr4dymttgwanhc3sfaauccbpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=f5f570a3bb9d14f558978d9a-178405928749941&wsIPSercert=31370804e4beda81994c47c81e89e394&wsBindIP=2&wsserid=1168282037991221552"
+                          "url": "https://tfxk1gr4uqmtt8y41hcjz8rzdrctpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=5040aed525d53c4c1c737a9d-178405989137871&wsIPSercert=ae59dbfb847ac581f84a32e885771892&wsBindIP=2&wsserid=1168214263215191710"
                         },
                         {
-                          "id": "lnk-ca971ffcc4",
+                          "id": "lnk-b2cb80ad22",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": false,
-                          "url": "https://tfxk1gr4dymttgwanhc3sfaauccbpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=af1d2b50939cd91abc041377-178405929374721&wsIPSercert=31370804e4beda81994c47c81e89e394&wsBindIP=2&wsserid=1168282035636612515"
+                          "url": "https://tfxk1gr4uqmtt8y41hcjz8rzdrctpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=dd65a829423b7a9bfc19eadf-178405989766175&wsIPSercert=ae59dbfb847ac581f84a32e885771892&wsBindIP=2&wsserid=1168214364742294105"
                         }
                       ]
                     }
