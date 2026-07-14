@@ -1,65 +1,12 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "14:51 14/07/2026",
+  "last_updated": "15:01 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Live bóng đá Xây Con",
       "channels": [
-        {
-          "id": "xaycon-637bea527243",
-          "name": "⚽ Dynamo Moscow vs Cska Moscow | Giao Hữu | 15:00 14/07",
-          "tournament": "Giao Hữu",
-          "logo_nha": "https://upload.wikimedia.org/wikipedia/en/e/e7/Dynamo_Moscow_logo.svg",
-          "logo_khach": "https://upload.wikimedia.org/wikipedia/en/thumb/2/26/PFK_CSKA_Logo.svg/960px-PFK_CSKA_Logo.svg.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload.wikimedia.org/wikipedia/en/e/e7/Dynamo_Moscow_logo.svg",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-637bea527243",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-637bea527243",
-                  "name": "Dynamo Moscow vs Cska Moscow",
-                  "streams": [
-                    {
-                      "id": "xaycon-637bea527243",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b07aee3a23",
-                          "name": "BLV Rồng Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tfxk3gr4dymttgwanhc3sfa4urmmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=3deccf1ae3c21780f71b9075-178401547882017&wsIPSercert=db5cc72191e3f5698fd20a52c43e2715&wsBindIP=2&wsserid=1168158473487963106"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "xaycon-a2f2b49bab53",
           "name": "⚽ Apia Leichhardt Tigers vs Peninsula Power | Australia Cup | 16:30 14/07",
