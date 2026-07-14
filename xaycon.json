@@ -1,15 +1,15 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "00:21 15/07/2026",
+  "last_updated": "00:31 15/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Live bóng đá Xây Con",
       "channels": [
         {
-          "id": "xaycon-f3ae76de2fad",
-          "name": "⚽ Kups vs Vardar Skopje | UEFA Champions League | 19:00 14/07",
+          "id": "xaycon-daf904b14ff8",
+          "name": "⚽ Kups vs Vardar Skopje | UEFA Champions League | 22:00 14/07",
           "tournament": "UEFA Champions League",
           "logo_nha": "https://upload.wikimedia.org/wikipedia/en/b/bd/KuPS_logo.svg",
           "logo_khach": "https://media.api-sports.io/football/teams/574.png",
@@ -34,76 +34,23 @@
           ],
           "sources": [
             {
-              "id": "xaycon-f3ae76de2fad",
+              "id": "xaycon-daf904b14ff8",
               "name": "Xây Con TV",
               "contents": [
                 {
-                  "id": "xaycon-f3ae76de2fad",
+                  "id": "xaycon-daf904b14ff8",
                   "name": "Kups vs Vardar Skopje",
                   "streams": [
                     {
-                      "id": "xaycon-f3ae76de2fad",
+                      "id": "xaycon-daf904b14ff8",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-531b2658c4",
+                          "id": "lnk-72f30ad942",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxk1gr4uqmtt8y41hcjsgyzdkcjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=527c539ebed211438b0a1787-178404967076755&wsIPSercert=9dbd18a34fa4129dbf32830c80a98485&wsBindIP=2&wsserid=1168283323302724409"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "xaycon-1c0f4f8f59d9",
-          "name": "⚽ Irtysh vs Fc Astana | Friendlies Women | 21:00 14/07",
-          "tournament": "Friendlies Women",
-          "logo_nha": "https://media.api-sports.io/football/teams/4565.png",
-          "logo_khach": "https://media.api-sports.io/football/teams/562.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/4565.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-1c0f4f8f59d9",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-1c0f4f8f59d9",
-                  "name": "Irtysh vs Fc Astana",
-                  "streams": [
-                    {
-                      "id": "xaycon-1c0f4f8f59d9",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4214f70693",
-                          "name": "BLV Rồng Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8"
+                          "url": "https://tfxk0gr4uqmtt8y41hcjz8rzdncbofihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=0e4b1b37549e237ae7f7db1e-178405029805654&wsIPSercert=2762b24a968e8497912df3f8ff79e0d8&wsBindIP=2&wsserid=1168176346318957775"
                         }
                       ]
                     }
@@ -152,11 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9ea60cff54",
+                          "id": "lnk-a15a6c3a7a",
                           "name": "BLV Ciu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxk1gr4uqmtt8y41hcjsgyzdkcjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8?wsSession=f75f6470af28a14acee233bd-178404968378713&wsIPSercert=9dbd18a34fa4129dbf32830c80a98485&wsBindIP=2&wsserid=1168283323406534424"
+                          "url": "https://tfxk0gr4uqmtt8y41hcjz8rzdncbofihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8?wsSession=14c06b90294daa39133930cf-178405030437319&wsIPSercert=2762b24a968e8497912df3f8ff79e0d8&wsBindIP=2&wsserid=1168176346313714739"
                         }
                       ]
                     }
@@ -472,6 +419,51 @@
                   "streams": [
                     {
                       "id": "xaycon-b525282833eb",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-6db152e7147f",
+          "name": "⚽ Khan Tengri vs Yelimay Semey 2 | 1. Division | 21:00 16/07",
+          "tournament": "1. Division",
+          "logo_nha": "https://media.api-sports.io/football/teams/18805.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/27635.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/18805.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-6db152e7147f",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-6db152e7147f",
+                  "name": "Khan Tengri vs Yelimay Semey 2",
+                  "streams": [
+                    {
+                      "id": "xaycon-6db152e7147f",
                       "name": "F",
                       "stream_links": []
                     }
