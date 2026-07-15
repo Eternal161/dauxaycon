@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "19:11 15/07/2026",
+  "last_updated": "19:20 15/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-356c1405dc",
+                          "id": "lnk-7e62c949e1",
                           "name": "BLV Rồng Đất",
                           "type": "hls",
                           "default": true,
