@@ -1,72 +1,12 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "04:20 16/07/2026",
+  "last_updated": "04:31 16/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Live bóng đá Xây Con",
       "channels": [
-        {
-          "id": "xaycon-3a00d8972ae7",
-          "name": "⚽ England vs Argentina | World Cup | 02:00 16/07",
-          "tournament": "World Cup",
-          "logo_nha": "https://media.api-sports.io/football/teams/10.png",
-          "logo_khach": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/250px-Flag_of_Argentina.svg.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/10.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-3a00d8972ae7",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-3a00d8972ae7",
-                  "name": "England vs Argentina",
-                  "streams": [
-                    {
-                      "id": "xaycon-3a00d8972ae7",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2cf761ce85",
-                          "name": "BLV Rồng Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8"
-                        },
-                        {
-                          "id": "lnk-338d00e422",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "xaycon-b525282833eb",
           "name": "⚽ Thimphu vs Paro | Premier League | 19:00 16/07",
@@ -463,6 +403,51 @@
                   "streams": [
                     {
                       "id": "xaycon-ac0c69c0e887",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-8417af2ee743",
+          "name": "⚽ Astana Ii vs Jaiyq | 1. Division | 21:00 17/07",
+          "tournament": "1. Division",
+          "logo_nha": "https://media.api-sports.io/football/teams/4548.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/27561.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/4548.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-8417af2ee743",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-8417af2ee743",
+                  "name": "Astana Ii vs Jaiyq",
+                  "streams": [
+                    {
+                      "id": "xaycon-8417af2ee743",
                       "name": "F",
                       "stream_links": []
                     }
