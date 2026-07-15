@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "23:21 15/07/2026",
+  "last_updated": "23:31 15/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b1aead4162",
+                          "id": "lnk-8b8d5d78ed",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxl0gr4uqmtt8y41hcjw8yzdnpjufihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=43280c1c975363fe81a8d8d5-178413248409942&wsIPSercert=c3f4eada2938bc1ec22e5f84881f24b9&wsBindIP=2&wsserid=1168202392933970899"
+                          "url": "https://tfxl1gr4dymttgwanhc3sfaauccbpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=0fecc200ad94635c875c47ce-178413308286898&wsIPSercert=ed1f46c943e1b372f5619b0d950c6a26&wsBindIP=2&wsserid=1168282035663924028"
                         }
                       ]
                     }
@@ -99,11 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b6fd1a37bb",
+                          "id": "lnk-5c9c22cefa",
                           "name": "BLV Ciu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxl0gr4uqmtt8y41hcjw8yzdnpjufihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8?wsSession=43280c1c975363fe81a8d8d5-178413249045438&wsIPSercert=c3f4eada2938bc1ec22e5f84881f24b9&wsBindIP=2&wsserid=1168202392933970899"
+                          "url": "https://tfxl1gr4dymttgwanhc3sfaauccbpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_chuoi/playlist.m3u8?wsSession=8cf16018a08d5f7837063995-178413308934501&wsIPSercert=ed1f46c943e1b372f5619b0d950c6a26&wsBindIP=2&wsserid=1168278313568844709"
                         }
                       ]
                     }
