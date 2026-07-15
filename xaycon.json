@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "02:21 16/07/2026",
+  "last_updated": "02:31 16/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,18 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a43e5fa3eb",
+                          "id": "lnk-81fd47a6d9",
                           "name": "BLV Rồng Đất",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxl3gr4dymttgwanhct3fa3dymmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=fd4279eb4da43a7cd311095b-178414327056178&wsIPSercert=6dbb9edbe6f32e81d828ac836208646b&wsBindIP=2&wsserid=1172666312483236046"
+                          "url": "https://tfxl1gr3uomttgr31hcj3fa3deqbpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=2405a2a24215f54d1eb1e38c-178414387805702&wsIPSercert=9bca1db02ddd9b95a7246b953e2f9a0b&wsBindIP=2&wsserid=1168168154453604765"
                         },
                         {
-                          "id": "lnk-e4764e9b7b",
+                          "id": "lnk-94348daa48",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": false,
-                          "url": "https://tfxl3gr4dymttgwanhct3fa3dymmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=fd4279eb4da43a7cd311095b-178414327690113&wsIPSercert=6dbb9edbe6f32e81d828ac836208646b&wsBindIP=2&wsserid=1172666312483236046"
+                          "url": "https://tfxl1gr3uomttgr31hcj3fa3deqbpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=2405a2a24215f54d1eb1e38c-178414388424425&wsIPSercert=9bca1db02ddd9b95a7246b953e2f9a0b&wsBindIP=2&wsserid=1168168154453604765"
                         }
                       ]
                     }
