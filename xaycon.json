@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "03:11 16/07/2026",
+  "last_updated": "03:21 16/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,18 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2e062adfd6",
+                          "id": "lnk-dbf036a92b",
                           "name": "BLV Rồng Đất",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxl1gr3uomttgr31hctwfaau1qbpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=c5921000f0642845178ac5b7-178414628976480&wsIPSercert=05ca3ba6f6340f3529bbf3929aced107&wsBindIP=2&wsserid=1177055146896570971"
+                          "url": "https://tfxl1gr3uomttgr31hctwfaau1qbpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=c5921000f0642845178ac5b7-178414687498080&wsIPSercert=59a94adede3157a8810f4ccee1acabee&wsBindIP=2&wsserid=1177055146896570971"
                         },
                         {
-                          "id": "lnk-aa8e781e05",
+                          "id": "lnk-e123e5a742",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": false,
-                          "url": "https://tfxl1gr3uomttgr31hctwfaau1qbpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=c5921000f0642845178ac5b7-178414629632695&wsIPSercert=05ca3ba6f6340f3529bbf3929aced107&wsBindIP=2&wsserid=1177055146896570971"
+                          "url": "https://tfxl1gr3uomttgr31hctwfaau1qbpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=c5921000f0642845178ac5b7-178414688151447&wsIPSercert=59a94adede3157a8810f4ccee1acabee&wsBindIP=2&wsserid=1177055146896570971"
                         }
                       ]
                     }
