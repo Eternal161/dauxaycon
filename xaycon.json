@@ -1,65 +1,12 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "19:41 15/07/2026",
+  "last_updated": "19:51 15/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Live bóng đá Xây Con",
       "channels": [
-        {
-          "id": "xaycon-8803b42a02fc",
-          "name": "⚽ Suwon City Fc vs Pyeongchang United | FA Cup | 17:00 15/07",
-          "tournament": "FA Cup",
-          "logo_nha": "https://media.api-sports.io/football/teams/2756.png",
-          "logo_khach": "https://media.api-sports.io/football/teams/18656.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://media.api-sports.io/football/teams/2756.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-8803b42a02fc",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-8803b42a02fc",
-                  "name": "Suwon City Fc vs Pyeongchang United",
-                  "streams": [
-                    {
-                      "id": "xaycon-8803b42a02fc",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-853a23b11e",
-                          "name": "BLV Rồng Đất",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "xaycon-7d60fbf8ff0f",
           "name": "⚽ Ordabasy vs Altay | Cup | 22:00 15/07",
@@ -456,6 +403,51 @@
                   "streams": [
                     {
                       "id": "xaycon-aa33b599edcf",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-1324a9485f9f",
+          "name": "⚽ Club Tijuana vs Tigres Uanl | Liga MX | 10:10 17/07",
+          "tournament": "Liga MX",
+          "logo_nha": "https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Club_Tijuana_logo.svg/1280px-Club_Tijuana_logo.svg.png",
+          "logo_khach": "https://i.pinimg.com/736x/25/76/86/257686e35e7375f804611f90b6d65e68.jpg",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Club_Tijuana_logo.svg/1280px-Club_Tijuana_logo.svg.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-1324a9485f9f",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-1324a9485f9f",
+                  "name": "Club Tijuana vs Tigres Uanl",
+                  "streams": [
+                    {
+                      "id": "xaycon-1324a9485f9f",
                       "name": "F",
                       "stream_links": []
                     }
