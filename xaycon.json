@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "19:20 15/07/2026",
+  "last_updated": "19:31 15/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7e62c949e1",
+                          "id": "lnk-964d0b4b6d",
                           "name": "BLV Rồng Đất",
                           "type": "hls",
                           "default": true,
@@ -321,6 +321,141 @@
                   "streams": [
                     {
                       "id": "xaycon-9adc81c62643",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-40c0690c4137",
+          "name": "⚽ Derry City vs Cska Sofia | UEFA Europa League | 00:30 17/07",
+          "tournament": "UEFA Europa League",
+          "logo_nha": "https://media.api-sports.io/football/teams/670.png",
+          "logo_khach": "https://upload.wikimedia.org/wikipedia/commons/8/8d/CSKA_Sofia_logo.svg",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/670.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-40c0690c4137",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-40c0690c4137",
+                  "name": "Derry City vs Cska Sofia",
+                  "streams": [
+                    {
+                      "id": "xaycon-40c0690c4137",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-24b117306683",
+          "name": "⚽ Virtus vs Dila | UEFA Europa Conference League | 02:00 17/07",
+          "tournament": "UEFA Europa Conference League",
+          "logo_nha": "https://media.api-sports.io/football/teams/5308.png",
+          "logo_khach": "https://media.api-sports.io/football/teams/3499.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/5308.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-24b117306683",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-24b117306683",
+                  "name": "Virtus vs Dila",
+                  "streams": [
+                    {
+                      "id": "xaycon-24b117306683",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "xaycon-aa33b599edcf",
+          "name": "⚽ Vestri vs Qarabag | UEFA Europa League | 03:00 17/07",
+          "tournament": "UEFA Europa League",
+          "logo_nha": "https://media.api-sports.io/football/teams/4165.png",
+          "logo_khach": "https://upload.wikimedia.org/wikipedia/en/f/fe/Qaraba%C4%9F_FK_logo.svg",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://media.api-sports.io/football/teams/4165.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "xaycon-aa33b599edcf",
+              "name": "Xây Con TV",
+              "contents": [
+                {
+                  "id": "xaycon-aa33b599edcf",
+                  "name": "Vestri vs Qarabag",
+                  "streams": [
+                    {
+                      "id": "xaycon-aa33b599edcf",
                       "name": "F",
                       "stream_links": []
                     }
