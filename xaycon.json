@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "17:41 15/07/2026",
+  "last_updated": "17:51 15/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-36f88ea8b1",
+                          "id": "lnk-bd947bc951",
                           "name": "BLV Rồng Đất",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxl0gr4uqmtt8y41hcjsgyzdnctufihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=0bb9974e18223129e2110e8c-178411207212544&wsIPSercert=64f937f0122b8e84e4ce06459c50331f&wsBindIP=2&wsserid=1168283529569158070"
+                          "url": "https://tfxl1gr4uqmtt8y41hcjz8rzdeqjpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=dd65a829423b7a9bfc19eadf-178411267381696&wsIPSercert=4b2cbc1a02a5ea37f7dd91d67cbcc355&wsBindIP=2&wsserid=1168214364742294105"
                         }
                       ]
                     }
