@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "01:31 16/07/2026",
+  "last_updated": "01:41 16/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,10 +26,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -44,7 +44,22 @@
                     {
                       "id": "xaycon-3a00d8972ae7",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f568b4673f",
+                          "name": "BLV Rồng Đất",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-824546bd96",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://tfxl1gr3domtzgwzdrpjufa3dnp3pxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=b51db410091cefed53270711-178414089886939&wsIPSercert=a7222f85db927d65fb301ca96da4d2a0&wsBindIP=2&wsserid=1168261056861671413"
+                        }
+                      ]
                     }
                   ]
                 }
