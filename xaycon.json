@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "03:51 16/07/2026",
+  "last_updated": "04:01 16/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,18 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0006dc090f",
+                          "id": "lnk-82c40bd9e0",
                           "name": "BLV Rồng Đất",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxl1gr4uqmtt8y41hcjzgyzdrcbpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=e55ec2ef446f994b8f4716a0-178414867312511&wsIPSercert=ecec38a9f7ff7510384f6ca66496779e&wsBindIP=2&wsserid=1168162712924058667"
+                          "url": "https://tfxl3gr4dymttgwanhct3fa3dymmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=e55ec2ef446f994b8f4716a0-178414927769213&wsIPSercert=5d77c1996e90d94c72e351909db441ef&wsBindIP=2&wsserid=1168162712924058667"
                         },
                         {
-                          "id": "lnk-43b745b373",
+                          "id": "lnk-3089637880",
                           "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": false,
-                          "url": "https://tfxl1gr4uqmtt8y41hcjzgyzdrcbpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=e55ec2ef446f994b8f4716a0-178414867956498&wsIPSercert=ecec38a9f7ff7510384f6ca66496779e&wsBindIP=2&wsserid=1168162712924058667"
+                          "url": "https://tfxl3gr4dymttgwanhct3fa3dymmacpsg17uff3hsnhuqcp1ghmucpf5gk.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_tammao/playlist.m3u8?wsSession=e55ec2ef446f994b8f4716a0-178414928421092&wsIPSercert=5d77c1996e90d94c72e351909db441ef&wsBindIP=2&wsserid=1168162712924058667"
                         }
                       ]
                     }
