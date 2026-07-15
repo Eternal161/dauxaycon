@@ -1,7 +1,7 @@
 {
   "id": "xaycon",
   "name": "Xây Con TV",
-  "last_updated": "18:11 15/07/2026",
+  "last_updated": "18:21 15/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-699bb79f3c",
+                          "id": "lnk-11fcefdc43",
                           "name": "BLV Rồng Đất",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tfxl0gr4uqmtt8y41hcjw8yzdnpjufihgg5djq311h6mbqjzgg3dqf3sg17uf.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=43280c1c975363fe81a8d8d5-178411389168950&wsIPSercert=f15b6dbf8c26bd48cafe8a51de8c70e6&wsBindIP=2&wsserid=1168202392933970899"
+                          "url": "https://tfxl1gr4dymttgwanhc3sfaauccbpxbtsa4mscwz81am1p3tse5tqptwzc3e.100ycdn.com/xclive.yarncdn.live/live/xctv_blv_rongdat/playlist.m3u8?wsSession=f5f570a3bb9d14f558978d9a-178411448343171&wsIPSercert=0f3527850567ccd0774672a2897449fc&wsBindIP=2&wsserid=1168282037991221552"
                         }
                       ]
                     }
@@ -186,51 +186,6 @@
                   "streams": [
                     {
                       "id": "xaycon-3a00d8972ae7",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "xaycon-99be091aca65",
-          "name": "⚽ Indonesia vs Cambodia | ASEAN Championship | 15:45 16/07",
-          "tournament": "ASEAN Championship",
-          "logo_nha": "https://i.imgur.com/P4sNAMH.png",
-          "logo_khach": "https://media.api-sports.io/football/teams/1543.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://i.imgur.com/P4sNAMH.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "xaycon-99be091aca65",
-              "name": "Xây Con TV",
-              "contents": [
-                {
-                  "id": "xaycon-99be091aca65",
-                  "name": "Indonesia vs Cambodia",
-                  "streams": [
-                    {
-                      "id": "xaycon-99be091aca65",
                       "name": "F",
                       "stream_links": []
                     }
